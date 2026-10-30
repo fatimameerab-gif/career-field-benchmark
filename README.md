@@ -116,7 +116,7 @@ python scripts/gpu2_analysis.py .
 ## Citation
 
 See `CITATION.cff`. Please also cite the data sources listed in `DATA_LICENSES.md`.
-
 ## Contact
-
-Meerab Fatima (p229407@pwr.nu.edu.pk), FAST-NUCES Peshawar.
+- Meerab Fatima: p229407@pwr.nu.edu.pk, meerabfatimaa063@gmail.com
+- Rohail Iqbal: p229224@pwr.nu.edu.pk
+- Ubaid Malik: p229351@pwr.nu.edu.pk
