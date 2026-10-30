@@ -1,3 +1,4 @@
+"""TF-IDF + Logistic Regression / linear SVM baselines on the fixed folds (CPU, a few minutes)."""
 import argparse
 import numpy as np, pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer

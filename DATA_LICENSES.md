@@ -31,6 +31,6 @@ The full notice for each source is also in the `LICENSES/` folder.
 
 - **STARRT.ai pilot answers** (46 Google Form answers, Pakistan, Nov 2025). These are not released because consent for public release has not been confirmed. They are available from the authors on reasonable request. Hashed ids and labels for the pilot appear in `kaggle_results/*forms*`, but not the texts.
 - **Raw downloads.** See `raw/README.md`.
-- **Model weights.** These are downloaded at run time from their original publishers: `distilbert-base-uncased` and `sentence-transformers/all-MiniLM-L6-v2` / `all-mpnet-base-v2` are Apache-2.0, and `Qwen/Qwen2.5-3B-Instruct` is under the Qwen Research License.
+- **Model weights.** These are downloaded at run time from their original publishers: `distilbert-base-uncased` and `sentence-transformers/all-MiniLM-L6-v2` / `all-mpnet-base-v2` are Apache-2.0, `Qwen/Qwen2.5-3B-Instruct` is under the Qwen Research License, `Qwen/Qwen2.5-7B-Instruct` is Apache-2.0, and the model card of `jjzha/jobbert-base-cased` (Zhang et al., NAACL 2022) does not state a licence.
 
 Licences were checked on 8 October 2026.

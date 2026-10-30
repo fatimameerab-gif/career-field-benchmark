@@ -1,3 +1,8 @@
+"""Sentence-BERT embeddings + Logistic Regression (the original STARRT.ai design), on the fixed folds.
+
+Default models: all-MiniLM-L6-v2 (what STARRT.ai used) and all-mpnet-base-v2 (stronger).
+Embeddings are computed once per dataset and cached in results/emb_*.npy.
+"""
 import argparse
 import numpy as np, pandas as pd
 from sklearn.linear_model import LogisticRegression

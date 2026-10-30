@@ -1,0 +1,102 @@
+{
+  "model": "jobbert",
+  "dataset": "djinni",
+  "summary": {
+    "acc": 0.8893,
+    "macro_f1": 0.8704,
+    "top3": 0.98,
+    "acc_sd": 0.0032,
+    "macro_f1_sd": 0.0043,
+    "top3_sd": 0.0026,
+    "folds": 5
+  },
+  "folds": [
+    {
+      "n": 5572,
+      "acc": 0.8851399856424982,
+      "macro_f1": 0.8636350767029825,
+      "top3": 0.9813352476669059
+    },
+    {
+      "n": 5572,
+      "acc": 0.8867552045944006,
+      "macro_f1": 0.8680373621059246,
+      "top3": 0.9804379038047379
+    },
+    {
+      "n": 5573,
+      "acc": 0.8921586219271488,
+      "macro_f1": 0.8716776402454024,
+      "top3": 0.9768526825767091
+    },
+    {
+      "n": 5572,
+      "acc": 0.8889088298636038,
+      "macro_f1": 0.8724396833624278,
+      "top3": 0.9773869346733668
+    },
+    {
+      "n": 5572,
+      "acc": 0.8935750179468772,
+      "macro_f1": 0.8763794310802145,
+      "top3": 0.9838478104809764
+    }
+  ],
+  "time": "2026-10-30 12:11",
+  "top_confusions": [
+    [
+      "Networking & SysAdmin",
+      "DevOps & Cloud",
+      294
+    ],
+    [
+      "DevOps & Cloud",
+      "Networking & SysAdmin",
+      280
+    ],
+    [
+      "AI/ML Engineering",
+      "Data Science & Analytics",
+      262
+    ],
+    [
+      "Data Science & Analytics",
+      "AI/ML Engineering",
+      227
+    ],
+    [
+      "Data Engineering & Databases",
+      "Data Science & Analytics",
+      182
+    ],
+    [
+      "Data Science & Analytics",
+      "Data Engineering & Databases",
+      173
+    ],
+    [
+      "Mobile Development",
+      "Web Development",
+      86
+    ],
+    [
+      "Data Science & Analytics",
+      "Product & Project Management",
+      66
+    ]
+  ],
+  "config": {
+    "model": "jjzha/jobbert-base-cased",
+    "tag": "jobbert",
+    "datasets": "djinni,faruque",
+    "folds": "0,1,2,3,4",
+    "epochs": 3,
+    "lr": 5e-05,
+    "batch": 32,
+    "max_len": 256,
+    "seed": 42,
+    "limit": 0,
+    "skip_forms": true,
+    "eval_variants": ""
+  }
+}

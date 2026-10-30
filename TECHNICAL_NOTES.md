@@ -75,7 +75,9 @@ raw/ ──build_datasets.py──> processed/*.csv ──make_folds.py──> k
 | TF-IDF + SVM | same features. `LinearSVC(class_weight="balanced")` |
 | SBERT + LR | `all-MiniLM-L6-v2` (original STARRT.ai design) or `all-mpnet-base-v2`. Normalised embeddings, default max sequence length. `LogisticRegression(C=4, max_iter=4000, class_weight="balanced")` |
 | DistilBERT | `distilbert-base-uncased`, 3 epochs, AdamW lr 5e-5, weight decay 0.01, batch 32, max length 256, linear schedule with 6% warm-up, gradient clip 1.0, fp16, seed 42 for every fold. No validation split and no early stopping, so the test fold is never used for tuning. |
+| JobBERT | `jjzha/jobbert-base-cased` (BERT-base further pre-trained on ~3.2M job-posting sentences, Zhang et al. 2022), same recipe as DistilBERT, seed 42, Djinni and Faruque only |
 | Qwen2.5-3B zero-shot | `Qwen/Qwen2.5-3B-Instruct`, fp16, no training. Details in the list below. |
+| Qwen2.5-7B zero-shot | `Qwen/Qwen2.5-7B-Instruct`, fp16, same prompt, spread over two T4 GPUs (`--device_map auto`) |
 
 How the zero-shot model works:
 - The prompt lists every field with the first sentence (at most 22 words) of its ESCO definition, or of its O\*NET definition if there is no ESCO one. The six Faruque labels use short hand-written definitions (`FARUQUE_DEF`).
@@ -83,6 +85,7 @@ How the zero-shot model works:
 - Each class name followed by `<|im_end|>` is scored by its summed log-probability, and the highest score wins. The output is therefore always a valid label.
 - The model is run on a stratified sample of fold 0: at most 40 rows per class, `random_state=0`. That gives 480 rows for Djinni and 212 for Faruque.
 - On the pilot, all 13 classes are allowed.
+- Prompt variants for the 3B model (`--prompt_variant`): `nodef` lists field names only; `plain` keeps the definitions but uses a reworded, job-matching instruction.
 
 Hyper-parameters were set once, before the results were seen, and never tuned on test folds.
 
@@ -107,11 +110,11 @@ Compute:
 
 ## 8. Known limitations
 
-- Labels are self-reported or platform categories, not expert-annotated. There is no inter-annotator agreement.
+- Labels are self-reported or platform categories, not expert-annotated. Only Djinni was checked by human annotators (204 profiles, two annotators from the author team; see section 11).
 - Djinni has no Embedded & IoT class, so the Djinni models predict 12 classes.
 - The pilot has only 33 answers, so its Wilson intervals are wide (for example 0.727–0.952 for 29/33).
-- The LLM was tested on a sample, not on all folds, because of GPU time.
-- DistilBERT used three seeds on Djinni and Faruque and one on Stack Overflow. The other models are deterministic given the folds.
+- The LLMs were tested on a sample, not on all folds, because of GPU time.
+- DistilBERT used three seeds on all three datasets; JobBERT used one seed and was not run on Stack Overflow. The other models are deterministic given the folds.
 
 ## 9. Leakage and validity checks (`scripts/review_analyses.py`)
 
@@ -120,7 +123,7 @@ Compute:
   - Faruque: 273 rows (12.8%)
   - Stack Overflow: 1,044 rows (4.3%)
 
-  Re-scoring every model without these rows cost at most 0.011 on Faruque and 0.008 on Stack Overflow. DistilBERT stayed the best model on all three datasets.
+  Re-scoring every model without these rows cost at most 0.011 on Faruque and 0.008 on Stack Overflow. The best models did not change: JobBERT stayed best on Faruque (0.939 → 0.932; `gpu2_near_duplicates.csv`), DistilBERT on Stack Overflow, and DistilBERT and JobBERT on Djinni.
 - **Djinni ablations** (TF-IDF + SVM, same folds):
 
   | Text | Accuracy |
@@ -141,3 +144,44 @@ Compute:
   | Faruque | 0.931 | 0.932 | 0.935 | 0.933 ± 0.002 | 0.13 / 0.062 / 0.017 |
 
   The DistilBERT versions of the Djinni ablations (`djinni_nolook`, `djinni_masked`, `djinni_tools`) can be run with the same notebook. They were not run for the paper, which reports these ablations with TF-IDF + SVM only.
+
+## 10. Second GPU round (`kaggle/STARRT_gpu_round2.ipynb`, `scripts/gpu2_analysis.py`)
+
+- **Stack Overflow seeds.** DistilBERT seeds 42 / 13 / 7: 0.516 / 0.516 / 0.518 (mean 0.517 ± 0.001); McNemar p < 0.001 against TF-IDF + SVM for every seed. Holm over all nine seed tests leaves the Djinni and Faruque values unchanged.
+- **JobBERT.** Djinni 0.889 ± 0.003 (macro-F1 0.870), Faruque 0.939 ± 0.013 (0.947). Against TF-IDF + SVM: Djinni +0.004 (bootstrap 95% CI +0.001 to +0.007, McNemar p = 0.021, Nadeau–Bengio p = 0.25); Faruque +0.016 (CI +0.007 to +0.026, Nadeau–Bengio p = 0.007). Against DistilBERT on Djinni: McNemar p = 0.60.
+- **DistilBERT on perturbed texts** (same trained models as the clean run):
+
+  | Test text | Accuracy | Macro-F1 | Predictions changed |
+  |---|---|---|---|
+  | Clean | 0.889 | 0.870 | – |
+  | Typos | 0.884 | 0.864 | 3.0% |
+  | Shuffled | 0.870 | 0.850 | 6.5% |
+  | 20% dropped | 0.877 | 0.858 | 5.3% |
+
+- **LLM variants** (fold-0 sample, Wilson 95% CI):
+
+  | Model / prompt | Djinni (480) | Faruque (212) |
+  |---|---|---|
+  | Qwen2.5-3B, definitions (default) | 0.804 [0.766, 0.837] | 0.722 [0.658, 0.778] |
+  | Qwen2.5-3B, names only | 0.783 [0.744, 0.818] | 0.656 [0.589, 0.716] |
+  | Qwen2.5-3B, reworded instruction | 0.800 [0.762, 0.833] | 0.585 [0.518, 0.649] |
+  | Qwen2.5-7B, definitions | 0.835 [0.800, 0.866] | 0.736 [0.673, 0.791] |
+
+  On Djinni, Qwen2.5-7B is 1.5–3.6 points below every trained model, but no difference is significant after Holm (raw p 0.053–0.48). On Faruque every trained model is better (p < 0.001).
+
+## 11. Label agreement (`annotation/`, `scripts/label_agreement.py`)
+
+- 204 Djinni benchmark profiles, 17 per class, drawn with `random_state=7` from all five folds.
+- Two annotators from the author team labelled them independently in a spreadsheet with a dropdown of the 12 fields plus "Unclear", using the field definitions, without seeing the dataset labels or each other's labels.
+- Results (Cohen's kappa, bootstrap 95% CI):
+
+  | Pair | n | kappa | 95% CI | Raw agreement |
+  |---|---|---|---|---|
+  | A vs B | 204 | 0.734 | 0.669–0.797 | 0.755 |
+  | A vs dataset | 204 | 0.787 | 0.726–0.845 | 0.804 |
+  | B vs dataset | 204 | 0.798 | 0.738–0.850 | 0.814 |
+  | A vs dataset, "Unclear" removed | 192 | 0.841 | 0.783–0.891 | 0.854 |
+  | B vs dataset, "Unclear" removed | 193 | 0.847 | 0.791–0.898 | 0.860 |
+
+- Where both annotators chose the same field (149 profiles), the dataset label matched in 95.3% of cases. The 7 mismatches are in AI/ML Engineering, Data Science & Analytics, DevOps & Cloud and Game Development.
+- `annotation/annotation_labels.csv` has the id, the dataset label and both annotators' labels.

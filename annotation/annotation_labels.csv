@@ -1,0 +1,205 @@
+item,id,label,A,B
+1,dj_f1958d64-9667-5f5b-8494-97e5699520e4,Networking & SysAdmin,Networking & SysAdmin,Networking & SysAdmin
+2,dj_f21cbca9-7a24-52ae-9d1b-36591b6e9e9a,Networking & SysAdmin,DevOps & Cloud,Networking & SysAdmin
+3,dj_089b646a-afff-587e-b4e2-28bd9ac9d9e6,Cybersecurity,Cybersecurity,Cybersecurity
+4,dj_65ed3576-ab57-59ab-be4c-3e6f534d29ac,AI/ML Engineering,AI/ML Engineering,AI/ML Engineering
+5,dj_dc7b1a01-e6f8-52b9-bc18-fa0d007925da,QA & Testing,QA & Testing,QA & Testing
+6,dj_fe026e6d-f4db-560f-aa3a-854c8bb3d166,AI/ML Engineering,AI/ML Engineering,Data Science & Analytics
+7,dj_bcf55d75-0bd9-5566-967d-fd8de3cd5aa3,Web Development,Web Development,Web Development
+8,dj_a16ee234-4cca-59e0-a8a0-00557813481a,Game Development,Game Development,Game Development
+9,dj_1f5eb2c8-3d93-520f-b1de-6aeb1d783c86,Data Science & Analytics,AI/ML Engineering,Data Science & Analytics
+10,dj_b3b24a8e-35e5-5dd0-bf81-76d065d13b24,Data Science & Analytics,Product & Project Management,Product & Project Management
+11,dj_b20e1b26-9f43-5f4b-bf4b-1c0d80f293ea,DevOps & Cloud,Networking & SysAdmin,DevOps & Cloud
+12,dj_aa6a87d9-287d-5c22-a9e2-bb9798afa0f8,Game Development,Game Development,Game Development
+13,dj_6e8e5a34-aab5-56d5-a370-09c76f2d105c,Mobile Development,Mobile Development,Mobile Development
+14,dj_424a55e5-a0cb-5920-b4f7-4fc293b0e987,Data Science & Analytics,Data Science & Analytics,Data Science & Analytics
+15,dj_5c0c26f2-2d60-5a99-8884-89efc49b48d0,Mobile Development,Mobile Development,Mobile Development
+16,dj_35edf1e2-c7e0-5c93-bcb2-299396856d45,QA & Testing,QA & Testing,QA & Testing
+17,dj_308aba7e-e4a4-5846-8cc1-f8be4ad45c88,Cybersecurity,Cybersecurity,Cybersecurity
+18,dj_53835d6c-c4d1-57f4-9996-d66ed107a6a8,Product & Project Management,Product & Project Management,Product & Project Management
+19,dj_b4459429-fec1-57e5-90e8-2571d210fc7e,QA & Testing,QA & Testing,QA & Testing
+20,dj_c920a9f1-11b3-55e8-a21e-90fa1dc1a753,Data Engineering & Databases,Data Engineering & Databases,Data Engineering & Databases
+21,dj_00f4856c-2564-5fd8-881c-c22e2cb9860d,UI/UX Design,UI/UX Design,UI/UX Design
+22,dj_f9fcca65-90b1-55cd-942f-c1c5878bd2e6,Product & Project Management,Product & Project Management,Product & Project Management
+23,dj_5f0cd003-1e09-5667-a40f-178a55c5b899,QA & Testing,QA & Testing,QA & Testing
+24,dj_431a7cd1-5fdb-52b5-86fe-6c40bb19ec9b,DevOps & Cloud,DevOps & Cloud,DevOps & Cloud
+25,dj_6bd15452-320f-57e2-bce3-5bef7c18e001,Web Development,Web Development,Web Development
+26,dj_cc51342a-bc40-5926-9a1b-d38c97a8d45c,Game Development,Game Development,Game Development
+27,dj_df069965-5178-5e25-b5d9-b453a661d6bf,DevOps & Cloud,DevOps & Cloud,DevOps & Cloud
+28,dj_b21f0dc3-1ae1-5d02-9b5f-0b47794f898b,Web Development,DevOps & Cloud,Web Development
+29,dj_dc9d6954-3500-5cd1-8b7e-ecf7c121f0ab,Game Development,Game Development,Game Development
+30,dj_e5727ff8-cb22-5d77-a9f8-5c7b266d8eb8,UI/UX Design,UI/UX Design,UI/UX Design
+31,dj_8f11c26c-cd8f-5d23-bc34-3fd2e308733f,Data Science & Analytics,Web Development,Data Science & Analytics
+32,dj_11b70cc7-5cb0-50aa-addd-bdee00faea4c,Networking & SysAdmin,Networking & SysAdmin,Networking & SysAdmin
+33,dj_7f10eb8b-f047-55ef-ad46-357abb7733a1,QA & Testing,QA & Testing,Web Development
+34,dj_d5b4ee67-3f70-5d21-9805-9066c3bc4884,Game Development,Game Development,Game Development
+35,dj_5782337a-516e-53db-b7fc-5e63af78dc3e,Product & Project Management,Product & Project Management,Product & Project Management
+36,dj_058bfad1-2858-5846-9b35-44378bdcb74b,Game Development,Web Development,Web Development
+37,dj_e97661bb-8739-5ff4-9b2a-299edb388a08,AI/ML Engineering,Data Science & Analytics,AI/ML Engineering
+38,dj_bc4a63f6-60e0-5b48-aff1-7be1a46518db,Web Development,Web Development,Web Development
+39,dj_db5a07d6-6b91-543d-a9ec-7e0e1164de42,UI/UX Design,UI/UX Design,UI/UX Design
+40,dj_f1992bd2-7fad-582c-82b8-9a2db3f1c4ce,QA & Testing,QA & Testing,QA & Testing
+41,dj_bcbbbd03-dad8-51a7-9766-644634747f1a,DevOps & Cloud,DevOps & Cloud,Web Development
+42,dj_62e251f6-4417-5a77-965f-31f4c9282c7c,Mobile Development,Mobile Development,Mobile Development
+43,dj_a5bc57fb-37a2-597f-9c95-7b0011eba03a,Data Science & Analytics,Data Engineering & Databases,Data Science & Analytics
+44,dj_8e4284dc-93bb-5535-9383-6a9e96c8ef00,Networking & SysAdmin,Networking & SysAdmin,Networking & SysAdmin
+45,dj_58771b94-01f2-570c-9cd5-90197b48aafa,Cybersecurity,Cybersecurity,Networking & SysAdmin
+46,dj_b735bf7f-8fbc-59e6-9f87-ba5a850bc3bf,Data Engineering & Databases,Data Engineering & Databases,Data Science & Analytics
+47,dj_405628f7-f7d6-5961-92ce-65ea97638ef1,Data Engineering & Databases,AI/ML Engineering,Data Engineering & Databases
+48,dj_3e592536-0e59-5ecf-8ba5-0ad935f9472a,Product & Project Management,Networking & SysAdmin,Product & Project Management
+49,dj_a78d3340-7cfc-5bf2-803a-5da90c3fca9c,Cybersecurity,Cybersecurity,Cybersecurity
+50,dj_271ac04a-6b6c-5c30-acca-0df365a6191d,QA & Testing,QA & Testing,QA & Testing
+51,dj_fca18966-2143-558c-9dfb-dff5f25b0d39,Cybersecurity,Cybersecurity,Cybersecurity
+52,dj_ff6ef9e8-6043-5eef-84ff-c3c454de5b90,AI/ML Engineering,Data Science & Analytics,AI/ML Engineering
+53,dj_96231054-f23f-5847-886d-de1ff1d7178d,QA & Testing,QA & Testing,QA & Testing
+54,dj_bde20dcc-8228-5aa7-a832-615bfcf98f0a,Mobile Development,Mobile Development,Mobile Development
+55,dj_0f6d0c7e-fbfc-54ec-88af-502470192b5a,Networking & SysAdmin,Networking & SysAdmin,Web Development
+56,dj_6d355628-2bdb-59e7-8d50-39cd5eaf25fb,Cybersecurity,Cybersecurity,Cybersecurity
+57,dj_02b7c2a9-970a-5211-b38d-af9be0440d3f,Cybersecurity,Cybersecurity,Product & Project Management
+58,dj_0c2788fb-fea0-56ae-8ec3-ee08fbd918e1,UI/UX Design,UI/UX Design,UI/UX Design
+59,dj_96ecfb8f-2ac3-55a0-8dfc-de40c1b1c7d3,Networking & SysAdmin,Networking & SysAdmin,Unclear
+60,dj_b9bd4ba1-7e77-5673-802e-3f234ea696db,Game Development,Game Development,Game Development
+61,dj_d6ec1fa1-7599-5249-a39b-8048b7ae7f81,Web Development,Unclear,QA & Testing
+62,dj_5e715978-a3ab-5e15-8fac-3b697944c217,Data Science & Analytics,Unclear,Data Science & Analytics
+63,dj_38e3cd3d-361c-5fa6-88c0-ab0dc09357e7,Mobile Development,Unclear,Mobile Development
+64,dj_c4f16c77-1830-57dd-99a3-6d4e4e0b3cad,Product & Project Management,Product & Project Management,UI/UX Design
+65,dj_29cd2d3d-5034-5a1d-a9fe-4ac94a954218,Data Engineering & Databases,Data Engineering & Databases,Data Engineering & Databases
+66,dj_25a91415-3141-547a-a9bd-31659119967d,DevOps & Cloud,DevOps & Cloud,DevOps & Cloud
+67,dj_6d50e84c-aca3-5fc7-8bf1-734938bbc885,UI/UX Design,UI/UX Design,UI/UX Design
+68,dj_31cf1eee-d384-5697-b623-a159fc1113af,Data Science & Analytics,Data Science & Analytics,Data Science & Analytics
+69,dj_fc78ba33-1fa0-5542-af70-6df745f933e6,UI/UX Design,UI/UX Design,UI/UX Design
+70,dj_8d56ed28-b766-5ad4-b7ba-ad1cf205f978,Product & Project Management,Unclear,Product & Project Management
+71,dj_c7daf821-d27d-592d-909b-96a78b16086e,QA & Testing,QA & Testing,Unclear
+72,dj_3f8147fc-d471-511a-a3f8-88652626055d,Mobile Development,Mobile Development,Mobile Development
+73,dj_1fbe292b-162e-529b-bc48-cafe4e5ed125,Game Development,Game Development,Game Development
+74,dj_32dabab1-3fda-5398-a8d3-4558abe3a60a,Data Engineering & Databases,Data Engineering & Databases,Data Engineering & Databases
+75,dj_e1552a4e-a6bd-536b-b893-e6540d61a56c,Networking & SysAdmin,Networking & SysAdmin,Networking & SysAdmin
+76,dj_e0eec122-a029-56ed-8f3a-a94d27977fb9,Mobile Development,Mobile Development,Mobile Development
+77,dj_ccc5b863-cc28-5cb4-ad38-d8767b1b4cd3,Web Development,Web Development,Web Development
+78,dj_b43c0264-3960-5a20-8e98-a9e2c5d77ccf,Game Development,Game Development,Game Development
+79,dj_ee2e08be-5677-58f0-9729-370245d1c3f7,Data Engineering & Databases,Data Engineering & Databases,Data Engineering & Databases
+80,dj_1b69d5db-595c-5901-8418-0d051f6c0d1f,AI/ML Engineering,Data Science & Analytics,AI/ML Engineering
+81,dj_f7b2b91b-0686-5a42-81e0-cff29865700e,Cybersecurity,Cybersecurity,Cybersecurity
+82,dj_39b650c3-e03a-570c-8220-6c5ebf6a2f38,Networking & SysAdmin,Networking & SysAdmin,Networking & SysAdmin
+83,dj_d2a9907a-ccb0-5c13-a87f-e14f5749b880,UI/UX Design,UI/UX Design,UI/UX Design
+84,dj_f2f7061d-b6b8-51b5-a252-bd2fb3282514,UI/UX Design,UI/UX Design,UI/UX Design
+85,dj_4e9c38ec-f1a7-524b-90e2-52547f2926c0,Mobile Development,Mobile Development,Mobile Development
+86,dj_2a227fa0-91c6-59e2-a19d-edf1db7636e7,Data Science & Analytics,AI/ML Engineering,Data Science & Analytics
+87,dj_9e533b8d-603c-5a3b-9072-90b8e86376e6,Data Science & Analytics,Data Science & Analytics,Data Science & Analytics
+88,dj_c9a60829-7ab9-5650-9418-3d7e115b0a93,Cybersecurity,Web Development,Cybersecurity
+89,dj_052a8bc5-014e-5972-a5e8-e828f6bbcce8,Game Development,Game Development,Game Development
+90,dj_847e3000-1edc-529d-9041-79157e116905,Data Engineering & Databases,Data Engineering & Databases,Data Engineering & Databases
+91,dj_c3313c33-89bb-54e4-8f81-fe607c064c25,Data Science & Analytics,Data Science & Analytics,Data Science & Analytics
+92,dj_00b9bd80-fcf2-5425-b610-b8aa595dd99c,UI/UX Design,UI/UX Design,UI/UX Design
+93,dj_ad0de266-c432-5192-b3fc-d78e31ee04dc,DevOps & Cloud,DevOps & Cloud,DevOps & Cloud
+94,dj_9db541e2-76f2-5e69-94b5-1efa8281bbd8,AI/ML Engineering,AI/ML Engineering,AI/ML Engineering
+95,dj_452e9e70-8816-599e-9fe1-1c0baaff704a,Game Development,Game Development,Game Development
+96,dj_a420a293-6bc0-5fca-bce0-be1723386ebf,UI/UX Design,UI/UX Design,UI/UX Design
+97,dj_0065f2d1-71e0-5e9a-9410-7c7d43bdefd1,Web Development,Web Development,Web Development
+98,dj_c918b85c-c377-5596-a2a0-880329f89845,DevOps & Cloud,DevOps & Cloud,DevOps & Cloud
+99,dj_db73a541-41ca-57a5-ae79-a19c3511b12e,UI/UX Design,UI/UX Design,UI/UX Design
+100,dj_8c294a99-4648-5bb2-83d2-86610a9f0c43,Mobile Development,Mobile Development,Mobile Development
+101,dj_a4162776-5dfc-54db-bb1d-444113bec957,AI/ML Engineering,Data Engineering & Databases,AI/ML Engineering
+102,dj_2eac5fa1-8b15-53ef-a3cb-6c5f3966120e,Mobile Development,Unclear,Unclear
+103,dj_0f7c70c6-cc66-5834-a85d-36df962d7f45,DevOps & Cloud,DevOps & Cloud,DevOps & Cloud
+104,dj_14957bb2-1b08-55f0-b2ff-c774fd9bcc37,Networking & SysAdmin,DevOps & Cloud,Networking & SysAdmin
+105,dj_a8cb8478-192f-5760-8bbe-a8b386adb26f,Networking & SysAdmin,Networking & SysAdmin,Networking & SysAdmin
+106,dj_d78cb4e7-80ae-528f-8108-66f92de7631a,Cybersecurity,Cybersecurity,Cybersecurity
+107,dj_3399b0ea-3d97-58f6-a3ba-c62d15e5a720,AI/ML Engineering,Data Engineering & Databases,Data Engineering & Databases
+108,dj_400f34b0-0601-5797-bd74-e0081e64308c,Data Engineering & Databases,Data Engineering & Databases,Data Engineering & Databases
+109,dj_7960bef7-2709-55f2-86fc-557b2f3b7d8c,Data Engineering & Databases,Data Engineering & Databases,Data Engineering & Databases
+110,dj_c5ea9090-19da-52bf-ad52-234a7b3b143a,DevOps & Cloud,DevOps & Cloud,DevOps & Cloud
+111,dj_da2838ac-d5e6-5f0a-b58c-68bfe39548fe,Web Development,Web Development,Web Development
+112,dj_bd37a6ea-00e6-513c-8437-a8cf4b2513fc,Mobile Development,Mobile Development,Mobile Development
+113,dj_802aaf3a-30ed-53b4-8341-c2622c063946,Mobile Development,Mobile Development,Mobile Development
+114,dj_c94d6269-e9ba-53ba-942f-037cc58c5f84,Data Science & Analytics,AI/ML Engineering,AI/ML Engineering
+115,dj_876d57a1-3a5c-5998-9845-602c0280a5fc,Game Development,Game Development,Game Development
+116,dj_b0ba1b18-8794-5d27-8e53-33b255130206,QA & Testing,QA & Testing,QA & Testing
+117,dj_14031447-2d5c-54e1-abc1-8db9a64bae1e,Data Engineering & Databases,Data Engineering & Databases,Data Engineering & Databases
+118,dj_431d7d50-ca15-5552-ab7b-5eb7e6c2ef7f,Product & Project Management,Product & Project Management,Product & Project Management
+119,dj_5bc7bea8-c4ff-5c82-ab6d-449f0b4e424b,Data Engineering & Databases,Data Engineering & Databases,Data Science & Analytics
+120,dj_cf0c574a-0938-5050-be5b-2da58a26dd74,QA & Testing,QA & Testing,QA & Testing
+121,dj_f5026193-4279-5e7d-90ee-eb4f2815f947,Data Science & Analytics,Data Science & Analytics,Data Science & Analytics
+122,dj_ebc6353e-9f00-5cc1-b4f5-f06ff5ee9a9e,AI/ML Engineering,AI/ML Engineering,AI/ML Engineering
+123,dj_dcb9eb9b-e306-5b63-85eb-cfbe0997487b,Data Science & Analytics,Unclear,Data Science & Analytics
+124,dj_d13821bc-818a-5aaf-8866-4372116f2123,Cybersecurity,Cybersecurity,Cybersecurity
+125,dj_adcb6590-fa80-5986-b2b6-2c4608eb9eae,Networking & SysAdmin,Networking & SysAdmin,Networking & SysAdmin
+126,dj_dfad372e-7aea-50d2-abfd-2d96f4a96e4f,AI/ML Engineering,AI/ML Engineering,AI/ML Engineering
+127,dj_72c6b7e5-3cf6-537d-9777-a968e3dca570,Web Development,Web Development,Web Development
+128,dj_9d2686ac-efd5-5b74-bddf-4fd7b44a5dce,Networking & SysAdmin,Unclear,Unclear
+129,dj_3e998a2d-a81b-582e-a68d-6874e27a6ff4,DevOps & Cloud,DevOps & Cloud,Networking & SysAdmin
+130,dj_08ab0e27-1b5f-57f9-8fb6-2352f76ac9d0,Mobile Development,Mobile Development,Mobile Development
+131,dj_b72cc4e2-a653-5e15-b516-cbeef8ddff00,QA & Testing,QA & Testing,QA & Testing
+132,dj_53b25b36-0671-5a6a-9b60-a664d8bb8ea3,AI/ML Engineering,Data Science & Analytics,AI/ML Engineering
+133,dj_6c9776b3-b769-5732-a11e-2dd700d1ded3,AI/ML Engineering,AI/ML Engineering,Data Science & Analytics
+134,dj_a6361582-160c-561a-b783-536a06041cb9,Data Engineering & Databases,Data Engineering & Databases,Data Science & Analytics
+135,dj_c7525d11-9e3d-5e4b-9692-aa63c29f93a5,Product & Project Management,Product & Project Management,Product & Project Management
+136,dj_a44272c9-27b7-547f-b834-c8f61006a613,Networking & SysAdmin,DevOps & Cloud,Networking & SysAdmin
+137,dj_a7a5a6c8-d229-5620-9945-520512acbfa4,Cybersecurity,Cybersecurity,Cybersecurity
+138,dj_a6c1a20b-4738-561c-a380-7db7a93b2c90,QA & Testing,QA & Testing,QA & Testing
+139,dj_8bc17bc6-1168-50db-bf0d-6e71bd2b554c,Networking & SysAdmin,Networking & SysAdmin,Networking & SysAdmin
+140,dj_931f96e6-75eb-5611-a6e3-c792aa3dca37,Web Development,Web Development,Web Development
+141,dj_02b0c876-b40c-5dcd-a084-d4e32529989c,DevOps & Cloud,Networking & SysAdmin,Networking & SysAdmin
+142,dj_c5682b45-d2d6-5c1c-8c3c-5dd3f2f80f5f,Cybersecurity,DevOps & Cloud,Unclear
+143,dj_a5a55faa-8cf8-5bbe-b490-51f103e154d0,Product & Project Management,Product & Project Management,Product & Project Management
+144,dj_fa0619d5-2f50-5e78-9ace-20922082329a,Cybersecurity,Cybersecurity,Cybersecurity
+145,dj_84875e4e-d1b3-5c91-b105-f0ab974bf5ea,Product & Project Management,Product & Project Management,Product & Project Management
+146,dj_7896a6e0-53f7-5b6f-b245-5c7f55d17b67,QA & Testing,QA & Testing,QA & Testing
+147,dj_8f1c9045-f740-5a0d-abeb-e16daf2041d5,UI/UX Design,UI/UX Design,UI/UX Design
+148,dj_19d5149d-f881-5fb0-a298-44fab9b45dc3,Networking & SysAdmin,Web Development,Cybersecurity
+149,dj_d8fc82fe-18de-58a3-bd9d-3026a8fcd620,Web Development,Web Development,Web Development
+150,dj_938274b4-9604-5b96-a816-1315d2170423,Game Development,Game Development,Game Development
+151,dj_fe76f258-2608-56c9-bc74-be913772da0e,Product & Project Management,Product & Project Management,Unclear
+152,dj_d99f7346-3eb3-5241-b864-aa05827223a8,QA & Testing,QA & Testing,QA & Testing
+153,dj_47f4e437-b36d-5750-8a92-f6c5b76271c1,Web Development,Web Development,Web Development
+154,dj_5579860c-1f8d-5946-8dba-4eca24120a29,UI/UX Design,UI/UX Design,UI/UX Design
+155,dj_a51458c3-0684-5db9-a556-f27bff8a029b,Data Science & Analytics,Data Science & Analytics,Unclear
+156,dj_f63c36cb-5845-5271-a82b-4dd8387e8da2,Data Engineering & Databases,Data Engineering & Databases,Data Engineering & Databases
+157,dj_ee4d6326-473f-5657-a92c-0a46116a881e,AI/ML Engineering,AI/ML Engineering,AI/ML Engineering
+158,dj_58f5c5af-f69a-5b3f-a789-3aab0e8848dc,Web Development,Unclear,Web Development
+159,dj_2d812fad-5c3f-5fc8-8376-0089580274c0,DevOps & Cloud,Data Engineering & Databases,Data Engineering & Databases
+160,dj_7b566521-9781-581b-9c28-a6afbdc307b7,Web Development,Unclear,Unclear
+161,dj_cc0e5509-8e29-5af5-a9fd-896d36676101,Game Development,Unclear,Unclear
+162,dj_4e4cae69-87fc-5c46-8e94-74b20ebf48a4,QA & Testing,QA & Testing,QA & Testing
+163,dj_48e7b8e2-b922-511e-92dd-e668af8094cf,Mobile Development,Mobile Development,Mobile Development
+164,dj_30cb9b2e-47d5-5cba-adf2-2168ec62aaf3,Product & Project Management,Product & Project Management,Product & Project Management
+165,dj_38cbcec1-3e8f-51ea-8eeb-31c383156e5a,AI/ML Engineering,Web Development,Web Development
+166,dj_2bd79127-11b4-5bf6-a3fb-6215bc8f4ed6,DevOps & Cloud,DevOps & Cloud,DevOps & Cloud
+167,dj_de72dd2e-8b2d-5b7d-a8c2-d6cd3d8406ed,Web Development,Web Development,Data Engineering & Databases
+168,dj_d4f94e63-a95b-53c3-bad1-aecd9b8da435,Game Development,Game Development,Game Development
+169,dj_1fbf76f6-6c8c-5467-b477-b5b99658a4f3,Product & Project Management,Product & Project Management,Product & Project Management
+170,dj_07c10dbc-6bbc-5fb1-b3bd-61fb49b9dce3,AI/ML Engineering,AI/ML Engineering,AI/ML Engineering
+171,dj_2805084e-e71c-5f67-a555-a54965b9ee18,Data Engineering & Databases,Data Engineering & Databases,Data Engineering & Databases
+172,dj_5a9607dc-d747-5822-9b66-eb1c8b0f24df,Web Development,Web Development,Web Development
+173,dj_b22c7473-9da4-589b-854c-917e96611346,Data Engineering & Databases,Data Engineering & Databases,Data Engineering & Databases
+174,dj_b5d6da9c-ab53-50de-b965-fac93b3ad4b3,Mobile Development,Mobile Development,Mobile Development
+175,dj_b03a1f90-7dcc-5725-aacc-aa101be980dd,Product & Project Management,Product & Project Management,Product & Project Management
+176,dj_70e6f8da-943a-5645-b45d-b23c6337d13d,Data Science & Analytics,Data Science & Analytics,Data Science & Analytics
+177,dj_7738e0aa-5222-51dc-8620-80f9ec3e95e7,DevOps & Cloud,DevOps & Cloud,Networking & SysAdmin
+178,dj_92a6c858-520d-5dc4-a71b-7d4dc884720f,Data Engineering & Databases,Data Engineering & Databases,Data Engineering & Databases
+179,dj_aa8170b8-b433-57a3-a21d-72fa4fb21b75,Cybersecurity,Cybersecurity,Cybersecurity
+180,dj_4b018185-f34d-5eed-923f-a57201fd2ef0,AI/ML Engineering,AI/ML Engineering,AI/ML Engineering
+181,dj_3c2e5c8e-037a-5d30-8563-32c1635d57ad,Data Science & Analytics,Data Science & Analytics,AI/ML Engineering
+182,dj_d69121bc-3129-5027-aa87-36f46dfa1a15,DevOps & Cloud,DevOps & Cloud,Networking & SysAdmin
+183,dj_2e4958e1-21e9-547c-b99f-867b79cb13f9,AI/ML Engineering,AI/ML Engineering,Data Science & Analytics
+184,dj_cb1326dd-42a2-5a08-a6e8-4e71572932c7,UI/UX Design,UI/UX Design,UI/UX Design
+185,dj_f60815ea-0989-547a-b494-7f14d8030889,Networking & SysAdmin,Networking & SysAdmin,DevOps & Cloud
+186,dj_8a5f2939-9e74-5129-9593-fa21f2df6c30,Networking & SysAdmin,Networking & SysAdmin,Networking & SysAdmin
+187,dj_b2a6e7e0-a8c5-55af-9e90-8829ccab0cd2,UI/UX Design,Unclear,UI/UX Design
+188,dj_2632cc0c-5d7c-5f67-9a14-e5e87bb7cbe1,DevOps & Cloud,Networking & SysAdmin,DevOps & Cloud
+189,dj_371a5a3f-3748-5104-bfac-46b9ae8b8073,QA & Testing,QA & Testing,QA & Testing
+190,dj_036e4b4d-2539-5ebc-a650-1b6155b9997b,Product & Project Management,Unclear,Unclear
+191,dj_06d9a648-be80-5847-99b8-acb2d2755dd5,Data Engineering & Databases,Data Engineering & Databases,Data Engineering & Databases
+192,dj_36a648b9-85dc-5c72-b987-747b74031514,Mobile Development,Mobile Development,Mobile Development
+193,dj_e505d0be-0349-5341-a7a6-6e2aec6dc74a,Game Development,Game Development,Game Development
+194,dj_ca0233a3-c249-51c0-82da-9ffecfeb19d1,DevOps & Cloud,DevOps & Cloud,DevOps & Cloud
+195,dj_3b426027-7adb-5d03-8e85-6bac07e8bcb2,Cybersecurity,Cybersecurity,Cybersecurity
+196,dj_da4185e0-bade-5396-84ab-7c02fec6ffe1,Product & Project Management,Product & Project Management,Product & Project Management
+197,dj_ae217bf2-f7ed-5d33-8d10-68b2f0c62eb4,UI/UX Design,UI/UX Design,UI/UX Design
+198,dj_72186b8a-15d5-5220-9159-4eccdf21d04c,Game Development,UI/UX Design,Unclear
+199,dj_464d1036-243f-5f0a-bd6a-6dad284d71f4,Mobile Development,Mobile Development,Mobile Development
+200,dj_ca1be7ad-78f6-5ad5-8249-c9e58b91f83d,Product & Project Management,Product & Project Management,Product & Project Management
+201,dj_2b5d5d2c-80fd-5c34-9adc-59bf245a7191,Data Science & Analytics,Data Science & Analytics,Data Science & Analytics
+202,dj_4eda2a31-fc56-5226-a8bc-bfc7746b8216,Cybersecurity,Cybersecurity,Cybersecurity
+203,dj_12858428-402f-5589-9d57-de1b66f5ca42,Web Development,Web Development,Web Development
+204,dj_b8e10c01-eefe-5c6d-bdc9-81f07aad4e98,UI/UX Design,UI/UX Design,UI/UX Design

@@ -1,0 +1,102 @@
+{
+  "model": "distilbert_robust",
+  "dataset": "djinni",
+  "summary": {
+    "acc": 0.8886,
+    "macro_f1": 0.8699,
+    "top3": 0.9789,
+    "acc_sd": 0.0037,
+    "macro_f1_sd": 0.0037,
+    "top3_sd": 0.001,
+    "folds": 5
+  },
+  "folds": [
+    {
+      "n": 5572,
+      "acc": 0.8835247666905959,
+      "macro_f1": 0.8638665720868394,
+      "top3": 0.9790021536252692
+    },
+    {
+      "n": 5572,
+      "acc": 0.884781048097631,
+      "macro_f1": 0.8678020422705769,
+      "top3": 0.9775664034458005
+    },
+    {
+      "n": 5573,
+      "acc": 0.8919791853579759,
+      "macro_f1": 0.8721027684630407,
+      "top3": 0.9795442311143011
+    },
+    {
+      "n": 5572,
+      "acc": 0.8916008614501076,
+      "macro_f1": 0.8742434463787158,
+      "top3": 0.9781048097631012
+    },
+    {
+      "n": 5572,
+      "acc": 0.8910624551328069,
+      "macro_f1": 0.8713997807044312,
+      "top3": 0.9802584350323044
+    }
+  ],
+  "time": "2026-10-30 11:04",
+  "top_confusions": [
+    [
+      "DevOps & Cloud",
+      "Networking & SysAdmin",
+      286
+    ],
+    [
+      "Networking & SysAdmin",
+      "DevOps & Cloud",
+      257
+    ],
+    [
+      "Data Science & Analytics",
+      "AI/ML Engineering",
+      253
+    ],
+    [
+      "AI/ML Engineering",
+      "Data Science & Analytics",
+      239
+    ],
+    [
+      "Data Engineering & Databases",
+      "Data Science & Analytics",
+      187
+    ],
+    [
+      "Data Science & Analytics",
+      "Data Engineering & Databases",
+      179
+    ],
+    [
+      "Data Science & Analytics",
+      "Product & Project Management",
+      67
+    ],
+    [
+      "Mobile Development",
+      "Web Development",
+      65
+    ]
+  ],
+  "config": {
+    "model": "distilbert-base-uncased",
+    "tag": "distilbert_robust",
+    "datasets": "djinni",
+    "folds": "0,1,2,3,4",
+    "epochs": 3,
+    "lr": 5e-05,
+    "batch": 32,
+    "max_len": 256,
+    "seed": 42,
+    "limit": 0,
+    "skip_forms": true,
+    "eval_variants": "djinni_typo,djinni_shuffle,djinni_drop"
+  }
+}

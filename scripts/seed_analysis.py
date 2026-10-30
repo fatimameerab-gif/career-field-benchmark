@@ -1,4 +1,4 @@
-"""DistilBERT seed robustness: seeds 42 (main run), 13 and 7 on Djinni and Faruque.
+"""DistilBERT seed robustness: seeds 42 (main run), 13 and 7 on Djinni, Faruque and Stack Overflow.
 
 Usage: python3 -I seed_analysis.py <project_dir>
 Writes processed/analysis/review_seeds.csv and review_seeds_mcnemar.csv
@@ -12,7 +12,7 @@ P = Path(sys.argv[1]); R = P / "kaggle_results"; OUT = P / "processed" / "analys
 SEEDS = {42: "distilbert", 13: "distilbert_seed13", 7: "distilbert_seed7"}
 OTHERS = {"tfidf_svm": "TF-IDF + SVM", "tfidf_lr": "TF-IDF + LR", "sbert_all-mpnet-base-v2": "mpnet + LR", "sbert_all-MiniLM-L6-v2": "MiniLM + LR"}
 rows, tests = [], []
-for ds in ["djinni", "faruque"]:
+for ds in ["djinni", "faruque", "stackoverflow"]:
     accs, f1s = [], []
     for seed, tag in SEEDS.items():
         j = json.load(open(R / f"{tag}__{ds}.json"))

@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this code or benchmark, please cite it as below, and also cite the data sources listed in DATA_LICENSES.md."
-title: "STARRT career-text benchmark: code and data for 'Predicting Computing Career Fields from Text in STARRT.ai: A Leakage-Aware Comparison of Lexical, Sentence-Embedding, Fine-Tuned and Zero-Shot LLM Classifiers'"
+title: "Career field prediction benchmark: code and data for 'Text Matters More Than the Model: A Leakage-Aware Benchmark for Predicting Computing Career Fields from Text'"
 type: software
 authors:
   - given-names: Meerab
@@ -16,9 +16,9 @@ authors:
     family-names: Khan
     affiliation: "FAST-NUCES Peshawar"
 version: "1.0.0"
-date-released: "2026-10-08"
+date-released: "2026-10-30"
 license: MIT
-repository-code: "https://github.com/fatimameerab-gif/STARRT-career-benchmark"
+repository-code: "https://github.com/fatimameerab-gif/career-field-benchmark"
 keywords:
   - career prediction
   - text classification

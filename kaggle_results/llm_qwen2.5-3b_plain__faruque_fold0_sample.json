@@ -1,0 +1,65 @@
+{
+  "model": "llm_qwen2.5-3b_plain",
+  "dataset": "faruque_fold0_sample",
+  "summary": {
+    "n": 212,
+    "acc": 0.5849056603773585,
+    "macro_f1": 0.5668410468192445,
+    "top3": 0.8679245283018868
+  },
+  "folds": [],
+  "time": "2026-10-30 12:46",
+  "top_confusions": [
+    [
+      "Software Development and Engineering",
+      "Data Science",
+      26
+    ],
+    [
+      "Artificial Intelligence",
+      "Data Science",
+      16
+    ],
+    [
+      "Development",
+      "User Experience (UX) and User Interface (UI) Design",
+      11
+    ],
+    [
+      "Security",
+      "Data Science",
+      10
+    ],
+    [
+      "Software Development and Engineering",
+      "Development",
+      4
+    ],
+    [
+      "Software Development and Engineering",
+      "User Experience (UX) and User Interface (UI) Design",
+      4
+    ],
+    [
+      "Artificial Intelligence",
+      "Development",
+      2
+    ],
+    [
+      "Data Science",
+      "User Experience (UX) and User Interface (UI) Design",
+      2
+    ]
+  ],
+  "config": {
+    "model": "Qwen/Qwen2.5-3B-Instruct",
+    "tag": "llm_qwen2.5-3b_plain",
+    "datasets": "djinni,faruque",
+    "per_class": 40,
+    "max_words": 250,
+    "end_text": "<|im_end|>",
+    "limit": 0,
+    "prompt_variant": "plain",
+    "device_map": ""
+  }
+}

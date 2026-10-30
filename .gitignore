@@ -15,3 +15,6 @@ paper/*.bbl
 kaggle/data/djinni_nolook_folds.csv
 kaggle/data/djinni_masked_folds.csv
 kaggle/data/djinni_tools_folds.csv
+kaggle/data/djinni_typo_folds.csv
+kaggle/data/djinni_shuffle_folds.csv
+kaggle/data/djinni_drop_folds.csv

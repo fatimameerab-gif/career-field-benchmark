@@ -1,3 +1,8 @@
+"""Shared data loading and metrics for every STARRT.ai experiment.
+
+All models use the same fixed folds (column `fold`, 0-4) created by make_folds.py, so their
+numbers are directly comparable. Identical texts never appear in both train and test.
+"""
 import glob, json, os, time
 from pathlib import Path
 import numpy as np
@@ -6,7 +11,9 @@ from sklearn.metrics import accuracy_score, f1_score, confusion_matrix
 
 DATASETS = {"djinni": "djinni_folds.csv", "stackoverflow": "stackoverflow_folds.csv", "faruque": "faruque_folds.csv",
             # Djinni ablations made by scripts/review_analyses.py (same folds, changed text)
-            "djinni_nolook": "djinni_nolook_folds.csv", "djinni_masked": "djinni_masked_folds.csv", "djinni_tools": "djinni_tools_folds.csv"}
+            "djinni_nolook": "djinni_nolook_folds.csv", "djinni_masked": "djinni_masked_folds.csv", "djinni_tools": "djinni_tools_folds.csv",
+            # perturbed copies of the Djinni folds (scripts/robustness.py)
+            "djinni_typo": "djinni_typo_folds.csv", "djinni_shuffle": "djinni_shuffle_folds.csv", "djinni_drop": "djinni_drop_folds.csv"}
 
 
 def find_data_dir():

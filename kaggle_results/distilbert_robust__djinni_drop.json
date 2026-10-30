@@ -1,0 +1,61 @@
+{
+  "model": "distilbert_robust",
+  "dataset": "djinni_drop",
+  "summary": {
+    "acc": 0.877,
+    "macro_f1": 0.8581,
+    "top3": 0.9755,
+    "acc_sd": 0.0063,
+    "macro_f1_sd": 0.0071,
+    "top3_sd": 0.0027,
+    "folds": 5
+  },
+  "folds": [
+    {
+      "n": 5572,
+      "acc": 0.87275664034458,
+      "macro_f1": 0.8502496151860156,
+      "top3": 0.9730796841349605
+    },
+    {
+      "n": 5572,
+      "acc": 0.8686288585786073,
+      "macro_f1": 0.8494801130027833,
+      "top3": 0.9727207465900933
+    },
+    {
+      "n": 5573,
+      "acc": 0.8833662300376817,
+      "macro_f1": 0.8656867673634987,
+      "top3": 0.9764938094383635
+    },
+    {
+      "n": 5572,
+      "acc": 0.8750897343862168,
+      "macro_f1": 0.8593574311132263,
+      "top3": 0.9750538406317301
+    },
+    {
+      "n": 5572,
+      "acc": 0.8853194544149318,
+      "macro_f1": 0.8655048279968294,
+      "top3": 0.9800789662598708
+    }
+  ],
+  "time": "2026-10-30 11:04",
+  "trained_on": "djinni",
+  "config": {
+    "model": "distilbert-base-uncased",
+    "tag": "distilbert_robust",
+    "datasets": "djinni",
+    "folds": "0,1,2,3,4",
+    "epochs": 3,
+    "lr": 5e-05,
+    "batch": 32,
+    "max_len": 256,
+    "seed": 42,
+    "limit": 0,
+    "skip_forms": true,
+    "eval_variants": "djinni_typo,djinni_shuffle,djinni_drop"
+  }
+}
