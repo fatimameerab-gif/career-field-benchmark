@@ -15,9 +15,10 @@ authors:
   - given-names: Shahzeb
     family-names: Khan
     affiliation: "FAST-NUCES Peshawar"
-version: "1.0.0"
+version: "1.0.1"
 date-released: "2026-10-30"
 license: MIT
+doi: "10.5281/zenodo.23810642"
 repository-code: "https://github.com/fatimameerab-gif/career-field-benchmark"
 keywords:
   - career prediction
