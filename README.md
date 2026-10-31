@@ -1,6 +1,6 @@
 # Career field prediction benchmark
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23810642.svg)](https://doi.org/10.5281/zenodo.23810642)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23810641.svg)](https://doi.org/10.5281/zenodo.23810641)
 
 Code, benchmark data and results for the paper
 
@@ -29,7 +29,7 @@ The task is to predict a person's computing career field (13 fields, 4 parent gr
 - Full tables are in `processed/analysis/`, and every prediction is in `kaggle_results/`.
 
 Repository: https://github.com/fatimameerab-gif/career-field-benchmark
-Archived version (Zenodo): https://doi.org/10.5281/zenodo.23810642
+Archived version (Zenodo): https://doi.org/10.5281/zenodo.23810641
 
 ## Repository layout
 
