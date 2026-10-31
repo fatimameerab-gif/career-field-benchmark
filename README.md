@@ -1,5 +1,6 @@
 # Career field prediction benchmark
-  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23810642.svg)]                                          (https://doi.org/10.5281/zenodo.23810642)
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23810642.svg)](https://doi.org/10.5281/zenodo.23810642)
 
 Code, benchmark data and results for the paper
 
@@ -17,12 +18,12 @@ The task is to predict a person's computing career field (13 fields, 4 parent gr
 | SBERT all-MiniLM-L6-v2 + LR (original STARRT.ai design) | 0.861 | 0.926 | 0.466 |
 | SBERT all-mpnet-base-v2 + LR | 0.873 | 0.921 | 0.463 |
 | DistilBERT fine-tuned | **0.889** | 0.931 | **0.516** |
-| JobBERT fine-tuned (job-posting BERT) | **0.889** | **0.939** | – |
+| JobBERT fine-tuned (job-posting BERT), seed 42 | **0.889** | **0.939** | – |
 
 - DistilBERT is stable across three seeds (Djinni 0.890 ± 0.001, Faruque 0.933 ± 0.002, Stack Overflow 0.517 ± 0.001). Its lead over TF-IDF + SVM on Djinni is small (0.4 points): McNemar p = 0.060 / 0.002 / 0.010 for the three seeds, but the paired bootstrap interval includes zero and the Nadeau–Bengio corrected t-test gives p = 0.32. On Stack Overflow the gain is large and significant (p < 0.001).
-- JobBERT (`jjzha/jobbert-base-cased`) matches DistilBERT on Djinni and is best on Faruque (+1.6 points over TF-IDF + SVM, 95% CI +0.7 to +2.6).
+- JobBERT (`jjzha/jobbert-base-cased`) over three seeds: Djinni 0.889 ± 0.001, Faruque 0.934 ± 0.005, the same as DistilBERT. Its lead over TF-IDF + SVM is not significant under the corrected t-test for any seed on Djinni, and only for seed 42 on Faruque.
 - Near-duplicate test rows (TF-IDF cosine ≥ 0.9) do not change which model is best. Masking role words costs TF-IDF + SVM 3 points on Djinni. Reducing the same profiles to their tool lists costs 21 points.
-- Zero-shot LLMs on the same fold-0 rows: Qwen2.5-3B-Instruct 0.804 (Djinni) and 0.722 (Faruque); Qwen2.5-7B-Instruct 0.835 and 0.736, against 0.850–0.871 and 0.910–0.943 for the trained models. Without definitions or with a reworded instruction the 3B model drops on Faruque (0.656 / 0.585).
+- Zero-shot LLMs on stratified samples of all five folds (2,400 Djinni and 1,057 Faruque rows): Qwen2.5-3B-Instruct 0.779 and 0.733, Qwen2.5-7B-Instruct 0.838 and 0.743, against 0.854–0.872 and 0.923–0.940 for the trained models on the same rows. On Djinni the 7B model is significantly below every trained model except MiniLM + LR (Holm). Prompt variants (fold 0 only): without definitions or with a reworded instruction the 3B model drops on Faruque (0.656 / 0.585).
 - Perturbed test texts (typos, shuffled word order, 20% words deleted) cost TF-IDF + SVM 0.4–1.3 points and DistilBERT 0.5–1.9 points.
 - Two annotators labelled 204 Djinni profiles: Cohen's kappa 0.79 / 0.80 against the dataset labels and 0.73 between them.
 - Full tables are in `processed/analysis/`, and every prediction is in `kaggle_results/`.
@@ -54,6 +55,7 @@ scripts/
   robust_stats.py       macro-F1, Nadeau–Bengio corrected t-test, paired bootstrap CIs, Holm
   robustness.py         perturbed Djinni test texts (typo / shuffle / drop) and the uncapped check
   gpu2_analysis.py      JobBERT, DistilBERT on perturbed texts, LLM prompt variants and Qwen2.5-7B
+  gpu3_analysis.py      JobBERT seeds 13 / 7 and both LLMs on samples of all five folds
   label_agreement.py    Cohen's kappa for the two annotators (annotation/)
   review_analyses.py    near-duplicate check, Djinni ablations (role words, tool-only text), LLM tests, Holm correction
   exploratory/          early checks (Faruque duplicate analysis, first TF-IDF baselines)
@@ -64,6 +66,7 @@ kaggle/
   STARRT_experiments.ipynb   notebook that runs everything on a Kaggle GPU
   STARRT_review_checks.ipynb extra DistilBERT seeds on Djinni and Faruque
   STARRT_gpu_round2.ipynb    Stack Overflow seeds, JobBERT, perturbed texts, LLM prompt variants, Qwen2.5-7B
+  STARRT_gpu_round3.ipynb    JobBERT seeds 13 / 7, Qwen2.5-3B and -7B on folds 1-4
   README.md             how to run on Kaggle
 kaggle_results/         per-model summaries (*.json) and per-row predictions (*__predictions.csv)
 processed/analysis/     tables used in the paper
@@ -104,7 +107,7 @@ python scripts/make_figures.py kaggle_results figures
 python scripts/review_analyses.py .     # needs raw/ for the Djinni ablations
 python scripts/seed_analysis.py . && python scripts/robust_stats.py .
 python scripts/robustness.py .          # needs processed/ (uncapped check)
-python scripts/gpu2_analysis.py .
+python scripts/gpu2_analysis.py . && python scripts/gpu3_analysis.py .
 ```
 
 `analyze_results.py` and `make_figures.py` read the released predictions, so step 4 runs without a GPU. The pilot table (`forms_33.csv`) and Figure 3 are rebuilt from the released pilot predictions, which contain labels only and no texts.
@@ -118,7 +121,11 @@ python scripts/gpu2_analysis.py .
 ## Citation
 
 See `CITATION.cff`. Please also cite the data sources listed in `DATA_LICENSES.md`.
+
 ## Contact
-- Meerab Fatima: p229407@pwr.nu.edu.pk, meerabfatimaa063@gmail.com
+
+- Meerab Fatima (corresponding author): p229407@pwr.nu.edu.pk
 - Rohail Iqbal: p229224@pwr.nu.edu.pk
 - Ubaid Malik: p229351@pwr.nu.edu.pk
+
+FAST-NUCES Peshawar.

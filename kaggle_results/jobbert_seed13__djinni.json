@@ -1,0 +1,102 @@
+{
+  "model": "jobbert_seed13",
+  "dataset": "djinni",
+  "summary": {
+    "acc": 0.8888,
+    "macro_f1": 0.8698,
+    "top3": 0.9796,
+    "acc_sd": 0.0049,
+    "macro_f1_sd": 0.0068,
+    "top3_sd": 0.0015,
+    "folds": 5
+  },
+  "folds": [
+    {
+      "n": 5572,
+      "acc": 0.8846015793251975,
+      "macro_f1": 0.8622398344266013,
+      "top3": 0.9793610911701364
+    },
+    {
+      "n": 5572,
+      "acc": 0.8835247666905959,
+      "macro_f1": 0.8651205547819675,
+      "top3": 0.9791816223977028
+    },
+    {
+      "n": 5573,
+      "acc": 0.8909025659429392,
+      "macro_f1": 0.8688215186759884,
+      "top3": 0.9795442311143011
+    },
+    {
+      "n": 5572,
+      "acc": 0.8876525484565686,
+      "macro_f1": 0.8708251217074395,
+      "top3": 0.9777458722182341
+    },
+    {
+      "n": 5572,
+      "acc": 0.8971643933955492,
+      "macro_f1": 0.8819428762140652,
+      "top3": 0.9822325915290739
+    }
+  ],
+  "time": "2026-10-30 16:44",
+  "top_confusions": [
+    [
+      "DevOps & Cloud",
+      "Networking & SysAdmin",
+      307
+    ],
+    [
+      "AI/ML Engineering",
+      "Data Science & Analytics",
+      259
+    ],
+    [
+      "Networking & SysAdmin",
+      "DevOps & Cloud",
+      253
+    ],
+    [
+      "Data Science & Analytics",
+      "AI/ML Engineering",
+      243
+    ],
+    [
+      "Data Engineering & Databases",
+      "Data Science & Analytics",
+      197
+    ],
+    [
+      "Data Science & Analytics",
+      "Data Engineering & Databases",
+      173
+    ],
+    [
+      "Mobile Development",
+      "Web Development",
+      65
+    ],
+    [
+      "Data Science & Analytics",
+      "Product & Project Management",
+      58
+    ]
+  ],
+  "config": {
+    "model": "jjzha/jobbert-base-cased",
+    "tag": "jobbert_seed13",
+    "datasets": "djinni,faruque",
+    "folds": "0,1,2,3,4",
+    "epochs": 3,
+    "lr": 5e-05,
+    "batch": 32,
+    "max_len": 256,
+    "seed": 13,
+    "limit": 0,
+    "skip_forms": true,
+    "eval_variants": ""
+  }
+}

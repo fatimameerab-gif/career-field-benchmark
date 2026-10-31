@@ -51,8 +51,10 @@ MODELS = [("tfidf_lr",                 "TF-IDF + LR",            _c[0]),
           ("sbert_all-mpnet-base-v2",  "mpnet + LR",             _c[3]),
           ("distilbert",               "DistilBERT fine-tuned",  _c[4]),
           ("llm_qwen2.5-3b_zeroshot",  "Qwen2.5-3B zero-shot",   _c[5])]
-COLOR = {k: c for k, _, c in MODELS}
-LABEL = {k: n for k, n, _ in MODELS}
+# Qwen2.5-7B (Figure 2 only): darker shade of the LLM colour, so both LLMs read as one family
+LLM7 = ("llm_qwen2.5-7b_zeroshot", "Qwen2.5-7B zero-shot", {"bright": "#9c2f6b", "classic": "#67000d", "muted": "#882255"}[sys.argv[3] if len(sys.argv) > 3 else "bright"])
+COLOR = {k: c for k, _, c in MODELS + [LLM7]}
+LABEL = {k: n for k, n, _ in MODELS + [LLM7]}
 # names used inside processed/analysis/*.csv
 ANAME = {"tfidf_lr": "TF-IDF + LR", "tfidf_svm": "TF-IDF + SVM", "sbert_all-MiniLM-L6-v2": "SBERT MiniLM + LR (original STARRT.ai)",
          "sbert_all-mpnet-base-v2": "SBERT mpnet + LR", "distilbert": "DistilBERT fine-tuned", "llm_qwen2.5-3b_zeroshot": "Qwen2.5-3B zero-shot"}
@@ -103,20 +105,32 @@ axes[0].set_ylabel(r"Accuracy (mean $\pm$ SD, 5 folds)")
 fig.tight_layout(rect=(0, 0.1, 1, 1)); legend_below(fig, SUPERVISED, 5)
 fig.savefig(OUT / "Figure_1.pdf"); plt.close(fig)
 
-# ---------- Figure 2: zero-shot LLM vs trained models on the same rows ----------
-same = pd.read_csv(ANALYSIS / "llm_same_sample.csv")
-ALL = [m for m, _, _ in MODELS]
+# ---------- Figure 2: zero-shot LLMs vs trained models on the same rows (samples of all five folds) ----------
+same = pd.read_csv(ANALYSIS / "gpu3_llm_allfolds.csv")      # written by scripts/gpu3_analysis.py
+ANAME2 = {"tfidf_lr": "TF-IDF + LR", "tfidf_svm": "TF-IDF + SVM", "sbert_all-MiniLM-L6-v2": "MiniLM + LR",
+          "sbert_all-mpnet-base-v2": "mpnet + LR", "distilbert": "DistilBERT", "llm_qwen2.5-3b_zeroshot": "Qwen2.5-3B",
+          "llm_qwen2.5-7b_zeroshot": "Qwen2.5-7B"}
+ALL2 = [m for m, _, _ in MODELS] + [LLM7[0]]
 fig, axes = plt.subplots(1, 2, figsize=(7.2, 2.5), sharey=True)
-for ax, (ds, title) in zip(axes, [("djinni", "(a) Djinni, fold 0 sample (n = 480)"), ("faruque", "(b) Faruque, fold 0 sample (n = 212)")]):
-    vals = [same[(same.dataset == ds) & (same.model == ANAME[m])].acc.iloc[0] for m in ALL]
-    bars(ax, ALL, vals)
-    ax.set_title(title, fontsize=8)
-axes[0].set_ylabel("Accuracy")
-fig.tight_layout(rect=(0, 0.14, 1, 1)); legend_below(fig, ALL, 3)
+for ax, ds in zip(axes, ["djinni", "faruque"]):
+    sub = same[same.dataset == ds]
+    vals = [sub[sub.model == ANAME2[m]].acc.iloc[0] for m in ALL2]
+    lo = [sub[sub.model == ANAME2[m]].ci_low.iloc[0] for m in ALL2]; hi = [sub[sub.model == ANAME2[m]].ci_high.iloc[0] for m in ALL2]
+    x = np.arange(len(ALL2))
+    ax.bar(x, vals, 0.78, color=[COLOR[m] for m in ALL2], edgecolor=EDGE[0], linewidth=EDGE[1],
+           yerr=[np.array(vals) - lo, np.array(hi) - vals], capsize=2, error_kw={"lw": 0.7, "ecolor": INK})
+    for xi, v, h in zip(x, vals, hi):
+        ax.text(xi, h + 0.015, f"{round(v + 1e-12, 3):.3f}", ha="center", va="bottom", fontsize=6.5, color=INK)
+    ax.set_xticks([]); ax.set_ylim(0, 1.08); ax.set_yticks(np.arange(0, 1.01, 0.2)); ax.yaxis.grid(True)
+    n = int(sub.n.iloc[0])
+    ax.set_title(f"({'a' if ds == 'djinni' else 'b'}) {'Djinni' if ds == 'djinni' else 'Faruque'}, samples of all 5 folds (n = {n:,})", fontsize=8)
+axes[0].set_ylabel("Accuracy (95% Wilson interval)")
+fig.tight_layout(rect=(0, 0.14, 1, 1)); legend_below(fig, ALL2, 4)
 fig.savefig(OUT / "Figure_2.pdf"); plt.close(fig)
 
 # ---------- Figure 3: Pakistani pilot, correct answers with 95% Wilson intervals ----------
 forms = pd.read_csv(ANALYSIS / "forms_33.csv").set_index("model")
+ALL = [m for m, _, _ in MODELS]
 
 
 def wilson(k, n, z=1.96):

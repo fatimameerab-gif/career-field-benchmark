@@ -5,7 +5,7 @@ scored by its log-probability as the answer; the best-scoring class is the predi
 produces an invalid label and also gives a ranking for top-3.
 
 Default model: Qwen/Qwen2.5-3B-Instruct (Qwen Research License, research use; fits a 16 GB T4 in fp16).
-Evaluated on fold 0 of each dataset (stratified sample per class) and on the Pakistani forms.
+Evaluated on a stratified sample (per class) of each chosen test fold (default fold 0) and on the Pakistani forms.
 """
 import argparse, re
 import numpy as np, pandas as pd, torch
@@ -101,8 +101,9 @@ def evaluate(model, tok, dev, df, classes, name, a):
     C.save(a.tag, name, m, preds=p, extra={"top_confusions": C.top_confusions(p.true, p.pred), "config": vars(a)})
 
 
-def sample_fold0(df, per_class):
-    t = df[df.fold == 0]
+def sample_fold(df, per_class, fold=0):
+    """stratified sample of one test fold (fold 0 gives exactly the sample used in the paper)"""
+    t = df[df.fold == fold]
     return pd.concat([g.sample(min(len(g), per_class), random_state=0) for _, g in t.groupby("label")]).reset_index(drop=True)
 
 
@@ -116,6 +117,7 @@ if __name__ == "__main__":
     ap.add_argument("--end_text", default="<|im_end|>", help="end-of-answer marker of the chat template")
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--prompt_variant", default="default", choices=["default", "nodef", "plain"])
+    ap.add_argument("--folds", default="0", help="test folds to sample, e.g. 0 or 1,2,3,4; one result file per fold")
     ap.add_argument("--device_map", default="", help='"auto" spreads a large model over all GPUs (e.g. 7B on 2x T4)')
     a = ap.parse_args()
     PROMPT_VARIANT = a.prompt_variant
@@ -133,7 +135,10 @@ if __name__ == "__main__":
             classes = sorted(C.label_set()["class"])           # zero-shot needs no training data: all 13 classes
             df = C.load_forms().reset_index(drop=True)
             name = "forms_zeroshot"
-        else:
-            full = C.load(ds); classes = sorted(full.label.unique()); df = sample_fold0(full, a.per_class); name = ds + "_fold0_sample"
-        if a.limit: df = df.head(a.limit)
-        evaluate(model, tok, dev, df, classes, name, a)
+            if a.limit: df = df.head(a.limit)
+            evaluate(model, tok, dev, df, classes, name, a); continue
+        full = C.load(ds); classes = sorted(full.label.unique())
+        for k in [int(x) for x in a.folds.split(",")]:
+            df = sample_fold(full, a.per_class, k); name = f"{ds}_fold{k}_sample"
+            if a.limit: df = df.head(a.limit)
+            evaluate(model, tok, dev, df, classes, name, a)

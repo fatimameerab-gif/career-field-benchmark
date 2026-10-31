@@ -1,0 +1,102 @@
+{
+  "model": "jobbert_seed7",
+  "dataset": "djinni",
+  "summary": {
+    "acc": 0.8901,
+    "macro_f1": 0.8716,
+    "top3": 0.9794,
+    "acc_sd": 0.0042,
+    "macro_f1_sd": 0.0051,
+    "top3_sd": 0.002,
+    "folds": 5
+  },
+  "folds": [
+    {
+      "n": 5572,
+      "acc": 0.8862167982770998,
+      "macro_f1": 0.8655234260267567,
+      "top3": 0.9793610911701364
+    },
+    {
+      "n": 5572,
+      "acc": 0.8880114860014358,
+      "macro_f1": 0.8695131220812921,
+      "top3": 0.9807968413496052
+    },
+    {
+      "n": 5573,
+      "acc": 0.8923380584963215,
+      "macro_f1": 0.8714006131120798,
+      "top3": 0.9772115557150547
+    },
+    {
+      "n": 5572,
+      "acc": 0.8867552045944006,
+      "macro_f1": 0.8703878179750095,
+      "top3": 0.9773869346733668
+    },
+    {
+      "n": 5572,
+      "acc": 0.8973438621679828,
+      "macro_f1": 0.8809770098404814,
+      "top3": 0.9824120603015075
+    }
+  ],
+  "time": "2026-10-30 17:59",
+  "top_confusions": [
+    [
+      "DevOps & Cloud",
+      "Networking & SysAdmin",
+      307
+    ],
+    [
+      "AI/ML Engineering",
+      "Data Science & Analytics",
+      267
+    ],
+    [
+      "Networking & SysAdmin",
+      "DevOps & Cloud",
+      245
+    ],
+    [
+      "Data Science & Analytics",
+      "AI/ML Engineering",
+      234
+    ],
+    [
+      "Data Engineering & Databases",
+      "Data Science & Analytics",
+      191
+    ],
+    [
+      "Data Science & Analytics",
+      "Data Engineering & Databases",
+      167
+    ],
+    [
+      "Mobile Development",
+      "Web Development",
+      75
+    ],
+    [
+      "Product & Project Management",
+      "Data Science & Analytics",
+      55
+    ]
+  ],
+  "config": {
+    "model": "jjzha/jobbert-base-cased",
+    "tag": "jobbert_seed7",
+    "datasets": "djinni,faruque",
+    "folds": "0,1,2,3,4",
+    "epochs": 3,
+    "lr": 5e-05,
+    "batch": 32,
+    "max_len": 256,
+    "seed": 7,
+    "limit": 0,
+    "skip_forms": true,
+    "eval_variants": ""
+  }
+}

@@ -83,7 +83,7 @@ How the zero-shot model works:
 - The prompt lists every field with the first sentence (at most 22 words) of its ESCO definition, or of its O\*NET definition if there is no ESCO one. The six Faruque labels use short hand-written definitions (`FARUQUE_DEF`).
 - The person's text is cut to 250 words.
 - Each class name followed by `<|im_end|>` is scored by its summed log-probability, and the highest score wins. The output is therefore always a valid label.
-- The model is run on a stratified sample of fold 0: at most 40 rows per class, `random_state=0`. That gives 480 rows for Djinni and 212 for Faruque.
+- The model is run on a stratified sample of each test fold: at most 40 rows per class, `random_state=0` (`--folds`). Fold 0 gives 480 rows for Djinni and 212 for Faruque; all five folds give 2,400 and 1,057.
 - On the pilot, all 13 classes are allowed.
 - Prompt variants for the 3B model (`--prompt_variant`): `nodef` lists field names only; `plain` keeps the definitions but uses a reworded, job-matching instruction.
 
@@ -113,8 +113,8 @@ Compute:
 - Labels are self-reported or platform categories, not expert-annotated. Only Djinni was checked by human annotators (204 profiles, two annotators from the author team; see section 11).
 - Djinni has no Embedded & IoT class, so the Djinni models predict 12 classes.
 - The pilot has only 33 answers, so its Wilson intervals are wide (for example 0.727–0.952 for 29/33).
-- The LLMs were tested on a sample, not on all folds, because of GPU time.
-- DistilBERT used three seeds on all three datasets; JobBERT used one seed and was not run on Stack Overflow. The other models are deterministic given the folds.
+- The LLMs were tested on stratified samples of the five test folds, not on every row, because of GPU time. The prompt variants were tested on fold 0 only.
+- DistilBERT used three seeds on all three datasets; JobBERT used three seeds and was not run on Stack Overflow. The other models are deterministic given the folds.
 
 ## 9. Leakage and validity checks (`scripts/review_analyses.py`)
 
@@ -123,7 +123,7 @@ Compute:
   - Faruque: 273 rows (12.8%)
   - Stack Overflow: 1,044 rows (4.3%)
 
-  Re-scoring every model without these rows cost at most 0.011 on Faruque and 0.008 on Stack Overflow. The best models did not change: JobBERT stayed best on Faruque (0.939 → 0.932; `gpu2_near_duplicates.csv`), DistilBERT on Stack Overflow, and DistilBERT and JobBERT on Djinni.
+  Re-scoring every model without these rows cost at most 0.011 on Faruque and 0.008 on Stack Overflow. The best models did not change: JobBERT (seed 42: 0.939 → 0.932; `gpu2_near_duplicates.csv`) and DistilBERT remained the best models on Djinni and Faruque, and DistilBERT on Stack Overflow.
 - **Djinni ablations** (TF-IDF + SVM, same folds):
 
   | Text | Accuracy |
@@ -185,3 +185,16 @@ Compute:
 
 - Where both annotators chose the same field (149 profiles), the dataset label matched in 95.3% of cases. The 7 mismatches are in AI/ML Engineering, Data Science & Analytics, DevOps & Cloud and Game Development.
 - `annotation/annotation_labels.csv` has the id, the dataset label and both annotators' labels.
+
+## 12. Third GPU round (`kaggle/STARRT_gpu_round3.ipynb`, `scripts/gpu3_analysis.py`)
+
+- **JobBERT seeds 42 / 13 / 7.** Djinni 0.889 / 0.889 / 0.890 (0.889 ± 0.001); Faruque 0.939 / 0.934 / 0.930 (0.934 ± 0.005). Against TF-IDF + SVM, Nadeau–Bengio p: Djinni 0.25 / 0.19 / 0.23, Faruque 0.007 / 0.12 / 0.12 (Holm over the six: only Faruque seed 42 < 0.05).
+- **LLMs on samples of all five folds** (40 per class per fold; trained models scored on the same rows with their out-of-fold predictions):
+
+  | Model | Djinni (2,400) | Faruque (1,057) |
+  |---|---|---|
+  | Qwen2.5-3B | 0.779 [0.762, 0.795] | 0.733 [0.706, 0.759] |
+  | Qwen2.5-7B | 0.838 [0.823, 0.853] | 0.743 [0.715, 0.768] |
+  | Trained models | 0.854–0.872 | 0.923–0.940 |
+
+  Per-fold accuracy, Djinni: 3B 0.758–0.804, 7B 0.829–0.856. 7B vs 3B: Djinni p < 0.001, Faruque p = 0.52. 7B vs trained models on Djinni: Holm-adjusted p ≤ 0.018 except MiniLM + LR (0.070).

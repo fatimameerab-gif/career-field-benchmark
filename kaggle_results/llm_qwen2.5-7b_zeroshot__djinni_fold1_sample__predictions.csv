@@ -1,0 +1,481 @@
+id,true,pred
+dj_072370df-4fc4-503b-ae9b-913b37546299,AI/ML Engineering,AI/ML Engineering
+dj_693a3942-afbe-59d8-9f78-d257bae00185,AI/ML Engineering,AI/ML Engineering
+dj_eb8a0210-01d1-5140-adcc-45cc30490c51,AI/ML Engineering,AI/ML Engineering
+dj_72171d1b-e625-5ca8-9b67-ef02c51eaa4b,AI/ML Engineering,AI/ML Engineering
+dj_5a6f6b58-bf10-5097-8103-86141afecf0f,AI/ML Engineering,AI/ML Engineering
+dj_583bd2ef-c4a8-5021-9c68-2ffc75bbd3ec,AI/ML Engineering,AI/ML Engineering
+dj_daa8f1ad-8d1c-5424-9d8f-e1969a81bcef,AI/ML Engineering,Data Science & Analytics
+dj_2a833e00-9308-5549-b782-f96cef7cec37,AI/ML Engineering,AI/ML Engineering
+dj_6ddc7892-6e7e-5ced-8c4f-dc3fa2dd33f1,AI/ML Engineering,AI/ML Engineering
+dj_ed1e950c-bd48-5b6f-a205-1a261bd46dd6,AI/ML Engineering,AI/ML Engineering
+dj_5bcb1446-c6be-5df6-b0c4-a419822307b3,AI/ML Engineering,Data Science & Analytics
+dj_ef508c98-7b16-5a4e-b2f6-ad268cdcc619,AI/ML Engineering,AI/ML Engineering
+dj_dc3da8f0-5549-55d2-8b70-b5f61af3a73a,AI/ML Engineering,Data Science & Analytics
+dj_7a95dcf9-9f7f-5570-b21b-8f90569dab22,AI/ML Engineering,Data Science & Analytics
+dj_95f97dce-4dd5-562d-ba3d-841de773a0dd,AI/ML Engineering,Data Science & Analytics
+dj_69be7a90-31f5-5548-ad9b-4a8eedcf8d55,AI/ML Engineering,AI/ML Engineering
+dj_d6f2e233-e39b-546c-9b6a-cb2f399f90e0,AI/ML Engineering,AI/ML Engineering
+dj_2cf0a97b-6afb-5fa4-923a-255f6009d4eb,AI/ML Engineering,Data Science & Analytics
+dj_d79115ac-d96d-5194-8a86-e74badb10257,AI/ML Engineering,AI/ML Engineering
+dj_a5fa7f80-0bb0-5066-9783-b4374f253bf4,AI/ML Engineering,AI/ML Engineering
+dj_d9d0a4e6-6324-54e3-8a6e-9c7933212e80,AI/ML Engineering,AI/ML Engineering
+dj_607ba8c2-bf7e-5d0d-87c4-f69fb2783e3b,AI/ML Engineering,AI/ML Engineering
+dj_42a52335-1eba-56c5-b2b6-2edc0f88b3be,AI/ML Engineering,AI/ML Engineering
+dj_3b5b433a-90e8-5da5-abbc-f435c7acf7e5,AI/ML Engineering,AI/ML Engineering
+dj_c06b8391-045c-5950-aca4-44cf59ebcab5,AI/ML Engineering,Data Science & Analytics
+dj_daaa6032-3e5d-52b2-9d7a-acd2ccf26f80,AI/ML Engineering,AI/ML Engineering
+dj_542b8d40-e1f8-5430-881d-3dde2ec10baf,AI/ML Engineering,AI/ML Engineering
+dj_8457aeb3-00e6-5416-a1ff-ffaf2e9b783b,AI/ML Engineering,Data Science & Analytics
+dj_6468c159-9444-54df-bc36-8eb95cc69d8d,AI/ML Engineering,AI/ML Engineering
+dj_277ced9c-c2f9-59bc-8f67-9155e293af80,AI/ML Engineering,AI/ML Engineering
+dj_efa625cc-1d77-52db-bf21-a9486642c866,AI/ML Engineering,AI/ML Engineering
+dj_52b2c9b2-fdf9-5f86-b64e-935158d8e99f,AI/ML Engineering,AI/ML Engineering
+dj_730e9e2c-7637-5cba-885d-b2e9e3ef2e01,AI/ML Engineering,AI/ML Engineering
+dj_98aca8bf-7852-5f05-988b-313e20970a93,AI/ML Engineering,AI/ML Engineering
+dj_fb14e072-984e-5c2c-87d1-efd216662dc0,AI/ML Engineering,AI/ML Engineering
+dj_de270bce-26e5-5dc3-8168-c6622ca6fbea,AI/ML Engineering,AI/ML Engineering
+dj_75a9b76f-b6d8-5f41-9f96-6d05814500da,AI/ML Engineering,AI/ML Engineering
+dj_831c7638-03a9-5e89-8256-989d6cb1ba79,AI/ML Engineering,AI/ML Engineering
+dj_f7eadbdc-fcb4-51a4-a157-0f68711593bd,AI/ML Engineering,AI/ML Engineering
+dj_c1a20371-6c58-506c-a128-8dc126819b5c,AI/ML Engineering,AI/ML Engineering
+dj_fa2a86f5-3e40-5b40-ad2f-c002493ff074,Cybersecurity,Cybersecurity
+dj_77eb9367-a033-5e29-ac3d-ef193704f307,Cybersecurity,Cybersecurity
+dj_f2657377-c1ce-511e-8201-53c5e545c3c6,Cybersecurity,Networking & SysAdmin
+dj_72091be8-0a1e-54b4-9298-bad8e3030b3b,Cybersecurity,Cybersecurity
+dj_e5cb59d0-eb82-5a69-89cc-30cafb301a71,Cybersecurity,Cybersecurity
+dj_c33ef7e3-0568-5fd3-9816-c21ad18b64ab,Cybersecurity,Web Development
+dj_5fc96c79-2f52-5703-b1d5-24ba0cfd35e0,Cybersecurity,Cybersecurity
+dj_e47af886-d81e-5765-a592-e2122c968872,Cybersecurity,Cybersecurity
+dj_3be4d9b3-cf9e-5aeb-80d7-677b56b9cc1d,Cybersecurity,Networking & SysAdmin
+dj_927f8826-07c8-563f-9593-d48aefeee72f,Cybersecurity,Cybersecurity
+dj_d0dc7d52-da83-5613-8214-8dd1e932195f,Cybersecurity,DevOps & Cloud
+dj_b0284b5e-d5bb-5141-bcdd-d0a7a3995007,Cybersecurity,Cybersecurity
+dj_99d83c14-aaba-59d7-a973-6b043153b5d5,Cybersecurity,Cybersecurity
+dj_03faec2f-5c23-5e6a-ba83-7e3de0a1d3e3,Cybersecurity,Cybersecurity
+dj_9d23d6d6-06c2-5603-b349-8bb868726cbd,Cybersecurity,Cybersecurity
+dj_90d3037b-dd4b-5ef1-be6a-5203693865b2,Cybersecurity,Networking & SysAdmin
+dj_81bb7fe2-472a-5217-84ab-3e0cb286f481,Cybersecurity,Cybersecurity
+dj_db39428c-5ef7-5dc9-9466-c3b53ab410f1,Cybersecurity,Cybersecurity
+dj_c54ed6c4-d753-5bfe-948f-3dda4041bf95,Cybersecurity,Cybersecurity
+dj_a52ce448-b300-55b3-99b9-8e895a52cc5e,Cybersecurity,Cybersecurity
+dj_e120be49-37ec-549d-8ce1-e35b7765acd0,Cybersecurity,Cybersecurity
+dj_4cdfb524-681b-5e97-9b4f-ca42ae74d875,Cybersecurity,Networking & SysAdmin
+dj_ac086048-6cb8-5e92-a02e-e58722de5914,Cybersecurity,Cybersecurity
+dj_e4e683dc-233b-5a76-9ee9-481a30f1cd29,Cybersecurity,Cybersecurity
+dj_2f7bbf5f-ad29-59d5-abce-df64871eaf8f,Cybersecurity,Cybersecurity
+dj_03831220-9afe-584e-84e5-86d938691552,Cybersecurity,Cybersecurity
+dj_607bd756-d533-567e-9413-a47939e7651c,Cybersecurity,QA & Testing
+dj_d0b64848-3b73-5d39-9490-798d4607c9eb,Cybersecurity,Cybersecurity
+dj_5efd01f9-fc7c-5994-9637-4e901e8d7e40,Cybersecurity,Cybersecurity
+dj_5f011667-15c9-5f07-91da-25e351e38241,Cybersecurity,AI/ML Engineering
+dj_0c89845a-165e-5ad9-80d0-2c9653608179,Cybersecurity,Cybersecurity
+dj_1f2a5ef0-b98c-5628-b310-c82dce3060e9,Cybersecurity,Cybersecurity
+dj_b2577aa5-68e8-5df4-b1d1-7a46f045271c,Cybersecurity,Cybersecurity
+dj_51da1877-8eaa-5c43-98e0-b29f0bfe3716,Cybersecurity,Cybersecurity
+dj_408530ef-87b2-5954-b156-d6816e535914,Cybersecurity,Cybersecurity
+dj_c6789364-fc21-5105-9543-25da4d746e8c,Cybersecurity,Networking & SysAdmin
+dj_efa383b0-f895-5507-b45c-ca1f95fc92d7,Cybersecurity,Cybersecurity
+dj_30235c12-0dad-5eb5-9b68-b11df62d441c,Cybersecurity,DevOps & Cloud
+dj_9c4d3b4f-10c9-5bd9-8bf1-e4f15ea2d2a0,Cybersecurity,Cybersecurity
+dj_e33fcbc4-4e46-5835-9fe8-9ba6177347e8,Cybersecurity,Cybersecurity
+dj_cfab0280-0ece-5a91-b857-bfa8efae0b03,Data Engineering & Databases,AI/ML Engineering
+dj_1b7aba20-93b6-5494-9d76-096a2cd9443e,Data Engineering & Databases,DevOps & Cloud
+dj_5ce9e5dd-1eb1-5f68-8bb0-8ee6cda66db1,Data Engineering & Databases,Data Engineering & Databases
+dj_2226f470-9209-51f0-a1e5-ab1916d3d839,Data Engineering & Databases,Data Engineering & Databases
+dj_17c3ab11-2af4-5bfd-894f-ee1e6f6fcef0,Data Engineering & Databases,Data Engineering & Databases
+dj_0ef20b5b-cfde-518b-9775-e63a2bc8f37b,Data Engineering & Databases,Data Engineering & Databases
+dj_ce546416-bab0-5a32-ac8e-b9eb9bc8ef4e,Data Engineering & Databases,AI/ML Engineering
+dj_da49c3ed-7a53-564b-98e3-28b3d8a4224a,Data Engineering & Databases,AI/ML Engineering
+dj_d3c098f5-7698-5410-81bf-8bef309bc609,Data Engineering & Databases,Data Engineering & Databases
+dj_ab23959f-6db1-5a57-80e5-1353dc287eed,Data Engineering & Databases,Data Engineering & Databases
+dj_2f779300-8de2-5af9-a0be-fe475af3cebf,Data Engineering & Databases,Data Engineering & Databases
+dj_d711598d-eac0-5504-8ba0-2e2f94f24ed5,Data Engineering & Databases,Data Engineering & Databases
+dj_748c02c8-c72d-56db-bb70-69b2b3a88377,Data Engineering & Databases,DevOps & Cloud
+dj_c76afff7-a827-5c48-bb65-281c4dfd29da,Data Engineering & Databases,Data Engineering & Databases
+dj_f10d126c-f757-5dde-a608-42833246e293,Data Engineering & Databases,Data Engineering & Databases
+dj_bf31265f-8e5c-5ad4-a32e-324faa51803d,Data Engineering & Databases,Product & Project Management
+dj_7da6884f-b453-5bf8-9316-6e09ebbe9d3d,Data Engineering & Databases,Data Engineering & Databases
+dj_0ef416fa-7dd4-5956-a0b3-ca9b80fd464c,Data Engineering & Databases,Data Engineering & Databases
+dj_2d556996-02ef-5c1a-934e-a1c0ad90e0ed,Data Engineering & Databases,Data Engineering & Databases
+dj_a6605544-fa1d-54ab-91f3-53108d062fc2,Data Engineering & Databases,Data Engineering & Databases
+dj_7df917e6-0220-576a-95cf-9c77efc8a292,Data Engineering & Databases,Data Engineering & Databases
+dj_ab0bff1b-4ca7-57d2-921f-e59d0ef29b1e,Data Engineering & Databases,Data Engineering & Databases
+dj_e70c65ff-5fe6-50b7-9f1a-b876ab366b3f,Data Engineering & Databases,Data Engineering & Databases
+dj_eb96cc8b-eab1-5640-a496-0cc2f8d3a39e,Data Engineering & Databases,Data Engineering & Databases
+dj_ef7bbcec-cbb5-5912-a209-26bf5b0ef646,Data Engineering & Databases,Data Engineering & Databases
+dj_cb281870-2492-5bc3-bcd5-9b57d5aa1160,Data Engineering & Databases,Data Engineering & Databases
+dj_dc9b614e-16dd-581b-be70-8ea160c84af8,Data Engineering & Databases,DevOps & Cloud
+dj_0a46c8a3-af89-5f59-ac54-302fe79c046c,Data Engineering & Databases,Data Engineering & Databases
+dj_55e3dd6d-0202-598b-ac5b-4c638a7e461a,Data Engineering & Databases,Game Development
+dj_07ce74a2-8ee4-5db2-9957-2f461f00d90e,Data Engineering & Databases,Data Engineering & Databases
+dj_c0788714-7734-5e50-80eb-21a4e16ab618,Data Engineering & Databases,Data Engineering & Databases
+dj_5177cc8b-d38b-5d17-8512-bea9ffbe1b43,Data Engineering & Databases,Data Engineering & Databases
+dj_6ad41347-889d-5802-bea3-56358083f2e0,Data Engineering & Databases,Data Engineering & Databases
+dj_e16cebef-c009-5ad0-8197-70bbfe59373b,Data Engineering & Databases,Data Engineering & Databases
+dj_dd05b6b1-6c70-580b-b4f3-3182459c9a81,Data Engineering & Databases,Networking & SysAdmin
+dj_d8e676ef-549b-57b6-a0a4-579362c2d467,Data Engineering & Databases,Data Engineering & Databases
+dj_13789a29-d92a-5fa7-bf45-ab7a9cc5ea6c,Data Engineering & Databases,QA & Testing
+dj_7a3808b3-b71f-5996-a3a5-77362d7d8524,Data Engineering & Databases,Data Engineering & Databases
+dj_b3d8c5da-f590-5afa-9803-b35a72f9d65f,Data Engineering & Databases,Data Engineering & Databases
+dj_c7cc9038-c75d-5c55-b81a-c079c7b8b563,Data Engineering & Databases,Data Engineering & Databases
+dj_f262e5a4-5b29-5fa0-9428-825b529b51f1,Data Science & Analytics,Data Science & Analytics
+dj_0aa37724-c696-5e9b-aeeb-d1c16c8d6cba,Data Science & Analytics,Data Science & Analytics
+dj_28c4b579-b285-5c44-88cb-ca9a35e9b511,Data Science & Analytics,Data Science & Analytics
+dj_86aadede-b980-51e1-a7b5-ee64cdcfa8f6,Data Science & Analytics,AI/ML Engineering
+dj_df97bdc5-3d0d-5bed-b8d9-8d0585452073,Data Science & Analytics,Data Science & Analytics
+dj_579ec53c-07b4-5475-8d96-c93f4cac4788,Data Science & Analytics,AI/ML Engineering
+dj_e16cc5f2-d356-54d7-8fa5-60e801ce1479,Data Science & Analytics,Data Science & Analytics
+dj_392761ae-622f-5bc7-aa9c-20ab840b14fa,Data Science & Analytics,Data Science & Analytics
+dj_1f32732e-6b93-572d-8b92-0f3e914602fc,Data Science & Analytics,AI/ML Engineering
+dj_d090007f-cfeb-551c-9894-45058d6c5d5f,Data Science & Analytics,Data Science & Analytics
+dj_078c99ce-c87d-59ed-a292-b4b084851dcd,Data Science & Analytics,Data Science & Analytics
+dj_ceb10c6b-b727-5cd6-a3d5-fdd84707f190,Data Science & Analytics,Data Science & Analytics
+dj_4952b176-f6c8-5dee-bb56-e85e45fa3b17,Data Science & Analytics,AI/ML Engineering
+dj_0de44a91-62a7-5ec8-8a55-0ac6a1ff96c3,Data Science & Analytics,Data Science & Analytics
+dj_ac974bac-583e-5085-92c8-b315b416db12,Data Science & Analytics,Data Science & Analytics
+dj_578d1632-de2b-53fe-9e7a-15591e6cb19a,Data Science & Analytics,Data Engineering & Databases
+dj_3cff6479-2a16-50d1-96b9-3be0c4afaff5,Data Science & Analytics,Data Engineering & Databases
+dj_cc8cb35d-48fa-55d9-b092-23fc92126f1c,Data Science & Analytics,Data Science & Analytics
+dj_6ced7cbd-2119-555a-8b91-7036b50c5614,Data Science & Analytics,AI/ML Engineering
+dj_31a07fc0-c545-5f5f-a0ce-11e891bea191,Data Science & Analytics,Data Science & Analytics
+dj_7f1712f4-3cf6-53c8-ad2f-8a5659a14e33,Data Science & Analytics,Data Engineering & Databases
+dj_71f3ab81-b8ac-5261-8406-e8b29deb209f,Data Science & Analytics,Data Science & Analytics
+dj_93b6eb81-7781-540e-b71b-26fade92cf6f,Data Science & Analytics,Web Development
+dj_803f14e4-5b5d-5c69-bad1-75e7d55e7d96,Data Science & Analytics,Data Science & Analytics
+dj_29ffd9c4-e7de-59c5-b491-3563a00ff7ea,Data Science & Analytics,Data Engineering & Databases
+dj_f84232d2-253a-5a8b-bdef-f6ab57ce65f3,Data Science & Analytics,Data Science & Analytics
+dj_9fe61044-dc71-54db-b8c1-2d832570599f,Data Science & Analytics,AI/ML Engineering
+dj_6e9e8c14-e5b3-5ae2-b00d-0fb181b855e8,Data Science & Analytics,AI/ML Engineering
+dj_fbcb9792-3e4c-5df5-bc1f-a8374a181af8,Data Science & Analytics,Data Engineering & Databases
+dj_f5af48f5-4e86-5561-90ec-f2ce035026dc,Data Science & Analytics,AI/ML Engineering
+dj_d63c82d6-b251-58ff-a82e-009fd4fa1b05,Data Science & Analytics,Data Science & Analytics
+dj_2cbc97ef-9289-52fb-804f-30899dfe8a2e,Data Science & Analytics,Data Engineering & Databases
+dj_e43740cc-d276-58bc-9d40-0472c77bcc54,Data Science & Analytics,AI/ML Engineering
+dj_9a7e4a17-3d3a-568e-aaf7-9d5b0873ca40,Data Science & Analytics,Data Science & Analytics
+dj_94d6a5e1-cb1e-5999-93d5-08b3ff12df4d,Data Science & Analytics,Data Engineering & Databases
+dj_9a8249a4-877e-5823-9da9-75e3ccfbfb6c,Data Science & Analytics,Data Science & Analytics
+dj_3284da57-0f89-5203-b26e-34fb7b53fe95,Data Science & Analytics,Data Science & Analytics
+dj_a6b0c398-a92b-55c3-98bd-f1ae1b55674b,Data Science & Analytics,Data Science & Analytics
+dj_72a0c93e-4cd5-5bcb-a966-b2fcf7614e64,Data Science & Analytics,Data Science & Analytics
+dj_58ca48f9-ef52-57bc-afe8-b3788794199e,Data Science & Analytics,Data Science & Analytics
+dj_235ae41e-758a-5c91-960d-77dbeba73a53,DevOps & Cloud,DevOps & Cloud
+dj_a4f4a8f3-3194-560d-a6b7-c7409e4dc439,DevOps & Cloud,DevOps & Cloud
+dj_4711e5b7-e78e-5b05-8e7a-c01744c923ac,DevOps & Cloud,DevOps & Cloud
+dj_5dfed73e-b22d-5793-b47c-003580f6c6bc,DevOps & Cloud,DevOps & Cloud
+dj_dbc4a289-0787-529f-b2c7-db53f3000bf7,DevOps & Cloud,DevOps & Cloud
+dj_abc80d14-7a8e-5178-a934-6e3132ee79cc,DevOps & Cloud,Networking & SysAdmin
+dj_1e8ecb4c-15a3-535e-b208-4f82b5d92448,DevOps & Cloud,DevOps & Cloud
+dj_3575c05c-2169-5181-9adc-2b8f9b627009,DevOps & Cloud,DevOps & Cloud
+dj_2b698aad-d8da-5dea-abfb-2a57ccdbf6fa,DevOps & Cloud,Web Development
+dj_4ac6462a-8875-5dee-b602-5861fc36bdf6,DevOps & Cloud,Networking & SysAdmin
+dj_7a1825f1-a24b-560d-83c8-c24ca2286e07,DevOps & Cloud,Networking & SysAdmin
+dj_7960b128-a059-56fd-bb9d-009cebdd75c2,DevOps & Cloud,DevOps & Cloud
+dj_7bf1f055-28e7-5ae9-952a-d6a71df209df,DevOps & Cloud,Networking & SysAdmin
+dj_6acf78e9-0f33-549a-a739-4ed59cff57ec,DevOps & Cloud,Networking & SysAdmin
+dj_310afae5-6d7d-5736-bff6-43d0a8cad32e,DevOps & Cloud,DevOps & Cloud
+dj_9c3dfc78-4323-5c73-bb08-18d511686aaf,DevOps & Cloud,DevOps & Cloud
+dj_ae6965d8-92dc-5d36-a2ab-11d83b920875,DevOps & Cloud,DevOps & Cloud
+dj_ea84313f-5f32-5afd-852a-09adc1aaaf12,DevOps & Cloud,DevOps & Cloud
+dj_7753d7b6-2367-5551-9c23-adbf30647987,DevOps & Cloud,DevOps & Cloud
+dj_9d0ab55c-f2ab-5ab4-b373-54bfcaad92ae,DevOps & Cloud,DevOps & Cloud
+dj_6526577e-7345-59b8-aa63-e8c85937088e,DevOps & Cloud,DevOps & Cloud
+dj_e76768a2-577b-5328-b837-ed4839661efa,DevOps & Cloud,DevOps & Cloud
+dj_e8ba6111-b9a4-5936-9bbf-90e49e591408,DevOps & Cloud,DevOps & Cloud
+dj_aac9f6d2-08e8-5a4f-a41b-91b52d182c0c,DevOps & Cloud,DevOps & Cloud
+dj_ff2b1fa3-9bce-5a50-ac4d-4c4f45d3ea25,DevOps & Cloud,DevOps & Cloud
+dj_09b96573-bda7-57a0-b947-19b862e96aa2,DevOps & Cloud,Networking & SysAdmin
+dj_06781ead-0ec2-5458-b858-a0e7aba5b93c,DevOps & Cloud,DevOps & Cloud
+dj_2382fbac-4f5a-543e-b985-78c464b0dfcf,DevOps & Cloud,DevOps & Cloud
+dj_2315529d-7945-5723-88e2-3d3eeb9d7b90,DevOps & Cloud,DevOps & Cloud
+dj_93a98c94-a6e8-5efe-b55c-1854395c3407,DevOps & Cloud,DevOps & Cloud
+dj_4a74228e-b962-54ab-a739-137fed19e451,DevOps & Cloud,DevOps & Cloud
+dj_88a0bfe9-33fc-5744-8e1d-b4f86285697f,DevOps & Cloud,DevOps & Cloud
+dj_d874f2c4-bafc-5ca1-a96d-fd2711730434,DevOps & Cloud,DevOps & Cloud
+dj_9de35a2c-20c9-5549-a08d-3bb6151993d6,DevOps & Cloud,Networking & SysAdmin
+dj_dc021e52-9cb7-5f38-bbf5-0e26c070400c,DevOps & Cloud,DevOps & Cloud
+dj_6b44ef5a-a0a7-50f6-b76d-06b82011ca47,DevOps & Cloud,DevOps & Cloud
+dj_6d7fd32c-fbf1-5bca-ac6d-6702f72833af,DevOps & Cloud,DevOps & Cloud
+dj_352aca1c-6823-5aef-9960-d4c71c63825a,DevOps & Cloud,QA & Testing
+dj_bc3feb36-5633-5224-adb6-a0511a132af9,DevOps & Cloud,DevOps & Cloud
+dj_97b2909a-a78a-5d27-ba01-a7f6242d2274,DevOps & Cloud,DevOps & Cloud
+dj_73c6eb81-e5fc-57d1-adf0-82df945806a8,Game Development,Game Development
+dj_8b82d134-f8b8-58e4-8cdd-fd59259e260e,Game Development,DevOps & Cloud
+dj_bb52276f-3d00-5bd7-9ef0-53868ef20f86,Game Development,Game Development
+dj_99d7bb47-9579-5ba5-8794-dcd6fb459f52,Game Development,Game Development
+dj_d56597e3-6f8c-5d5d-a7e4-061968c994f0,Game Development,Game Development
+dj_c453936f-29e6-59c6-9132-22347ec30ea3,Game Development,Game Development
+dj_25f5adb2-96bc-56d2-9d18-d0eed7789048,Game Development,Game Development
+dj_b4b41a3c-b626-5548-af92-660fb28e1c3a,Game Development,Game Development
+dj_56edb69f-5e94-5ce2-995b-a76c88c6c2c3,Game Development,Game Development
+dj_3f8c156b-5400-5cc0-8a8d-b686268df5ce,Game Development,Game Development
+dj_667e980c-6df6-5da4-b5da-36c37d4e2df2,Game Development,Game Development
+dj_72878a3e-9937-549f-aa80-fdff34a1a203,Game Development,Game Development
+dj_3bdca170-d245-58a4-9429-23d53e711ef5,Game Development,Game Development
+dj_6f7aaaf3-32fc-57a8-8ab5-0675111642eb,Game Development,Game Development
+dj_39b48c3b-b86f-57fb-bbef-d32acb943926,Game Development,Game Development
+dj_5776545b-d72a-5d08-9078-d63c81d45bc0,Game Development,Game Development
+dj_bceb527f-1b44-53ae-9173-43dba2b041dc,Game Development,Game Development
+dj_a56f5cdf-4c4f-592a-9fec-e1c8ad47c71f,Game Development,Game Development
+dj_bd90861f-8f48-5273-8738-da3eec2b3b35,Game Development,Game Development
+dj_21bcbbff-e34d-5d42-8a0d-0e76da8f3807,Game Development,Game Development
+dj_c8b25a08-58d5-55f6-9bc6-205a7e64e341,Game Development,Game Development
+dj_55dd3e95-51be-5dc8-ab1b-31c1f058f166,Game Development,Game Development
+dj_dd66a236-0db8-54c9-828f-0a1043b03e3f,Game Development,Game Development
+dj_9a3edf19-959b-55e9-bc21-e953f9d7f296,Game Development,Game Development
+dj_50e81608-e333-574c-ab8d-520d08099d25,Game Development,Game Development
+dj_41abc03d-82c2-5981-a522-ce4606a5565a,Game Development,Game Development
+dj_131000dc-b22e-5b58-b50f-d6220c184709,Game Development,Game Development
+dj_218f6a03-89d1-5ddb-b194-3c377e826736,Game Development,Game Development
+dj_f47d6d53-4ba3-5d37-ad32-9705be154e58,Game Development,Game Development
+dj_79a4755c-4628-565b-bb02-d92521c4c0b8,Game Development,Game Development
+dj_85265f86-dd89-5a28-a4b9-14c8f0077d75,Game Development,Game Development
+dj_37511442-7c68-5efb-9f25-dcc53d82a288,Game Development,Game Development
+dj_c1272896-c24a-5fa3-9b7f-92c47f294a8f,Game Development,Game Development
+dj_16c2d994-2bad-53c2-b909-b26ddf349d85,Game Development,Game Development
+dj_08866a15-9d4f-5cd1-9278-5ab2c8cc52e7,Game Development,Game Development
+dj_350a5a65-86a5-58ec-a6fd-72056eb6271b,Game Development,Game Development
+dj_7c317622-07dc-5a87-bdc4-8c2db2e6e59c,Game Development,Product & Project Management
+dj_1f034ce8-904b-56d4-98c6-7bb066067888,Game Development,Game Development
+dj_172e7c00-7aaf-5099-9d23-4f90d64b83b6,Game Development,Mobile Development
+dj_ac8b1509-4ad3-5984-a466-39e3e0f4a8ef,Game Development,Game Development
+dj_c2f6f525-460b-5f54-a4d1-f00dc8e6d458,Mobile Development,Mobile Development
+dj_207379dd-38ac-52bd-a29d-8082338c19e4,Mobile Development,Mobile Development
+dj_8b734ad1-3fdb-517c-a566-0f1eab0c14ec,Mobile Development,Mobile Development
+dj_654900ad-1701-591e-aad3-1b05760a670f,Mobile Development,UI/UX Design
+dj_fcf69866-1672-5bb8-907e-765705157a9e,Mobile Development,Mobile Development
+dj_eae8e487-2fa4-57ee-8240-41271a842f8f,Mobile Development,Mobile Development
+dj_c77680b1-08a8-5992-88ed-873712cb1561,Mobile Development,Mobile Development
+dj_6dfa3979-fa79-5d3d-adae-b1a2030e8991,Mobile Development,Mobile Development
+dj_b8170a93-befd-524e-a3e4-758f28fc6c8f,Mobile Development,Mobile Development
+dj_82bb1b95-9c74-5209-99a7-a9e169a9eebf,Mobile Development,DevOps & Cloud
+dj_61607d81-3852-5aa8-ab30-a20195a010cd,Mobile Development,Mobile Development
+dj_40d26dc8-37dc-5eb8-9f46-c7d50550fed8,Mobile Development,Mobile Development
+dj_18245411-8596-565d-800e-622af2697878,Mobile Development,Mobile Development
+dj_cccaded6-e42a-5759-ab8e-83d927ade775,Mobile Development,Mobile Development
+dj_f53e80a0-d187-5eaa-96c9-7e351273a97a,Mobile Development,Mobile Development
+dj_e6043ad3-22e0-5e83-8c7b-fc1d2256b78b,Mobile Development,Mobile Development
+dj_65531088-ee86-5940-8b28-4aa6f6e242d7,Mobile Development,Mobile Development
+dj_3ca5e773-366c-537e-8e9e-d53a813d9faf,Mobile Development,Mobile Development
+dj_95b7a421-d823-5099-9ae3-cd34572b3a5d,Mobile Development,Mobile Development
+dj_5a3d21e1-47e1-5211-bb6a-e9d2d41579ca,Mobile Development,Mobile Development
+dj_ba80e830-dfd3-5775-afd5-c35fb548924c,Mobile Development,Mobile Development
+dj_d6d92341-72d7-5947-a5df-fca0f40fe3fe,Mobile Development,Mobile Development
+dj_6d22623e-ec49-5510-9f47-4801ea71b281,Mobile Development,Mobile Development
+dj_de9b9fa4-e5e5-5261-a255-15bdd441478e,Mobile Development,DevOps & Cloud
+dj_3fe4ad33-a436-5b29-9f91-23f7e6ed0556,Mobile Development,Web Development
+dj_38c675aa-1f10-51df-b84c-5662233a6f78,Mobile Development,Mobile Development
+dj_e0cdcf48-9b3d-5a64-a190-e87e51969163,Mobile Development,Mobile Development
+dj_a88f6b2d-3549-5511-8de6-6878fca9868c,Mobile Development,Mobile Development
+dj_af0fd270-c08b-5d08-b04a-1b36d3215028,Mobile Development,Mobile Development
+dj_618b4c84-1de0-58b4-b37b-32ab8b91cf12,Mobile Development,Mobile Development
+dj_ee37a19a-8c3d-5c51-bf12-25c8bede6bfd,Mobile Development,Mobile Development
+dj_e64da5f3-470f-55f6-9297-08d4c9d340e9,Mobile Development,Mobile Development
+dj_5786b0a1-f7ee-599f-8f64-46dbdc2737a5,Mobile Development,Mobile Development
+dj_765b603b-8e88-5481-a65d-70dbbd25f42a,Mobile Development,Mobile Development
+dj_2080e661-4667-5f75-ac4d-8f4537efe07e,Mobile Development,Mobile Development
+dj_a9b1d7ae-856e-53e9-ada3-cd6f84ea52b4,Mobile Development,Mobile Development
+dj_1cf570a3-14b6-57c9-a8c2-182fd0ddbefd,Mobile Development,Mobile Development
+dj_d651f4b0-e5a6-5fae-be6e-3369c6ad4486,Mobile Development,Mobile Development
+dj_73973b63-52bf-5444-acc2-f3ef46bb61db,Mobile Development,Mobile Development
+dj_bb66d8dd-0fd4-5bd7-bcf3-388b838306c0,Mobile Development,Mobile Development
+dj_1f75dbf0-fcfa-5303-96ac-b77360caef2d,Networking & SysAdmin,Networking & SysAdmin
+dj_472e0c1d-900b-5573-b50f-c7dd1ccbdaad,Networking & SysAdmin,DevOps & Cloud
+dj_0a5ab1b8-4c6f-55ff-bc25-6270dcd02185,Networking & SysAdmin,Networking & SysAdmin
+dj_088b4fd6-d5f3-5ea2-9b1d-a94b43cf3565,Networking & SysAdmin,Networking & SysAdmin
+dj_c0b28547-f631-503b-bb91-5940d2481684,Networking & SysAdmin,Networking & SysAdmin
+dj_fffaa11f-77dd-503e-9482-35d59da776e1,Networking & SysAdmin,Networking & SysAdmin
+dj_553855cb-ba36-513b-abf3-b31612890312,Networking & SysAdmin,Cybersecurity
+dj_d5aa7051-7ceb-51a9-99c4-c0ba8957d692,Networking & SysAdmin,DevOps & Cloud
+dj_72d8c2a0-5403-54fb-a5a3-0a3bbea36347,Networking & SysAdmin,Networking & SysAdmin
+dj_aae41c32-a87d-5a07-a449-864306be7627,Networking & SysAdmin,Networking & SysAdmin
+dj_048e06e8-5fb7-5d29-a827-a87a050de9f1,Networking & SysAdmin,Networking & SysAdmin
+dj_0dd845b9-9c07-53ea-9579-4d8e40bffbd9,Networking & SysAdmin,Networking & SysAdmin
+dj_1581b72f-d802-58ab-9a70-f974b592b354,Networking & SysAdmin,Networking & SysAdmin
+dj_4026dc9d-9c31-5e9d-b759-61881c5af78e,Networking & SysAdmin,Networking & SysAdmin
+dj_c1ef4a8c-104f-58c8-b102-1e0487f8b38e,Networking & SysAdmin,Networking & SysAdmin
+dj_43d776c7-44f5-55e6-b148-44e145f14be4,Networking & SysAdmin,Networking & SysAdmin
+dj_ae61e54f-70e9-5456-9515-c5f53499364b,Networking & SysAdmin,Networking & SysAdmin
+dj_7e96d897-d987-5967-a578-fe1c4a7f5fd0,Networking & SysAdmin,Networking & SysAdmin
+dj_d1ec14d9-a0f5-5c06-8227-209a696213fa,Networking & SysAdmin,Networking & SysAdmin
+dj_82416f0d-fe44-5eb5-b281-9e518e2089ee,Networking & SysAdmin,Networking & SysAdmin
+dj_8d694e65-3622-5099-9a3f-66d0bc215310,Networking & SysAdmin,Networking & SysAdmin
+dj_bd72ce14-d1f7-5632-8893-dd2db353ef86,Networking & SysAdmin,DevOps & Cloud
+dj_5ac28ac5-e59e-51c0-8772-8f55cc5b06ff,Networking & SysAdmin,Networking & SysAdmin
+dj_728b7a5b-744b-54b8-b261-88342bb590c4,Networking & SysAdmin,Networking & SysAdmin
+dj_3a3c77d1-55ba-55af-b5a0-fa71144daee2,Networking & SysAdmin,Networking & SysAdmin
+dj_9a14a8ac-6b0d-5d3c-8946-706ffea33f38,Networking & SysAdmin,Networking & SysAdmin
+dj_d7ca342c-cebf-5b7b-8081-9770a9739251,Networking & SysAdmin,Networking & SysAdmin
+dj_5ee259f8-53a1-51ce-b52b-cc7689340b78,Networking & SysAdmin,Networking & SysAdmin
+dj_0aa65b6d-46a5-57cc-b473-d9ddc661397d,Networking & SysAdmin,Networking & SysAdmin
+dj_5e280ad3-b817-59be-9b02-d8f3e45c7236,Networking & SysAdmin,Networking & SysAdmin
+dj_6e541222-d68b-51d6-99f3-f097c7eb21d7,Networking & SysAdmin,Networking & SysAdmin
+dj_509500d9-d8d5-5a94-ad3b-4f76f4885a59,Networking & SysAdmin,Networking & SysAdmin
+dj_060ec2dc-98b8-5041-bfc7-0ab5f89066d9,Networking & SysAdmin,Networking & SysAdmin
+dj_681d914c-5a9f-5e46-8bd5-1e34e738136d,Networking & SysAdmin,Networking & SysAdmin
+dj_19be5522-7bfb-541a-b531-6121a27091e2,Networking & SysAdmin,Networking & SysAdmin
+dj_8e4284dc-93bb-5535-9383-6a9e96c8ef00,Networking & SysAdmin,Networking & SysAdmin
+dj_21888afa-1faa-50e7-963d-760c4e6a8476,Networking & SysAdmin,Networking & SysAdmin
+dj_57f0cebc-c680-5c07-9ba2-c0b74f8a91fe,Networking & SysAdmin,Networking & SysAdmin
+dj_50c24c9e-9b85-562e-9010-67bae413c152,Networking & SysAdmin,DevOps & Cloud
+dj_b3b99700-f65b-58b3-9417-9b1938a221d2,Networking & SysAdmin,Networking & SysAdmin
+dj_7690d034-0539-5671-8f12-0f1b95ac46be,Product & Project Management,Product & Project Management
+dj_ae02dd43-56fe-55c4-82a3-b179a4e14678,Product & Project Management,Product & Project Management
+dj_4cb5cba0-131c-583b-9358-2445b9ab11be,Product & Project Management,Product & Project Management
+dj_13d95d73-7518-5d8c-adfb-3c88436da824,Product & Project Management,Product & Project Management
+dj_c25d5fa2-d23c-51cb-af1e-7f1ec132fa4b,Product & Project Management,Product & Project Management
+dj_bc941c43-0acc-59c0-8610-7733d915652a,Product & Project Management,Web Development
+dj_9c090676-9a13-507c-a953-f338422060b7,Product & Project Management,Product & Project Management
+dj_e45a8e5d-68f8-5e33-9bc9-3fe19de91206,Product & Project Management,Product & Project Management
+dj_d26e5fd4-cf44-56a6-b0de-ae4b34aa257d,Product & Project Management,Product & Project Management
+dj_32116e6e-c240-5d85-8473-895dbd273b30,Product & Project Management,Product & Project Management
+dj_772bb061-456b-5e5b-ad85-739489b16844,Product & Project Management,Product & Project Management
+dj_cb0b61a7-1784-5c98-89d1-91ef062cc2f3,Product & Project Management,Product & Project Management
+dj_4c42cd20-d179-5b44-8196-cc8293250dcc,Product & Project Management,Product & Project Management
+dj_39d31112-c1e9-5c3f-a3e1-cb4254658102,Product & Project Management,Product & Project Management
+dj_1cdcda53-e7d7-50f3-9490-f8fc7c0f50a6,Product & Project Management,UI/UX Design
+dj_ea45a9dd-b783-5191-a243-7b70555de54e,Product & Project Management,Product & Project Management
+dj_947d77bd-f76d-5fb4-bcc0-869f6170bee5,Product & Project Management,Product & Project Management
+dj_dc01ad83-bd37-52b8-959f-2c999321e732,Product & Project Management,Product & Project Management
+dj_62fe1783-ffcc-57b6-a6a5-c84ca1b6426f,Product & Project Management,Product & Project Management
+dj_c3aac7ad-771f-5165-a705-8791192324e0,Product & Project Management,Product & Project Management
+dj_45bb6ca7-3322-5846-bdec-e6f1f06cd71d,Product & Project Management,Product & Project Management
+dj_71a16682-fff3-5361-938a-6fef35bd94f9,Product & Project Management,Product & Project Management
+dj_ec9a70d6-2612-5b60-918a-15d98b162e5d,Product & Project Management,DevOps & Cloud
+dj_75e7b304-d982-5c55-bca1-ad9b4c950905,Product & Project Management,Product & Project Management
+dj_e26cda75-e5f9-5ce2-aee7-556af2199dcc,Product & Project Management,Product & Project Management
+dj_7a456757-967f-53cd-9133-9f14f01bd1bb,Product & Project Management,Web Development
+dj_506f2ea6-ead1-552c-b8c6-3b9468e4905c,Product & Project Management,Product & Project Management
+dj_b96fc978-42c4-5963-81f9-d0f6c2c64656,Product & Project Management,Product & Project Management
+dj_aae8090c-0489-5b32-b07a-c45e9b3c4f39,Product & Project Management,Product & Project Management
+dj_ebf95726-494d-552d-ae66-07a0e90751f1,Product & Project Management,Product & Project Management
+dj_5fa3a8fe-603a-5063-8626-150da6614dc2,Product & Project Management,Product & Project Management
+dj_6837bf73-1b0c-5d71-98d6-398d99c26f9f,Product & Project Management,Product & Project Management
+dj_d9b63a5f-1eb0-5562-8d26-bd85db006180,Product & Project Management,Data Science & Analytics
+dj_ce8ca146-2c0a-5051-8e02-7727f878af4e,Product & Project Management,Product & Project Management
+dj_0c81754a-8899-500a-bec6-1630f5ef5594,Product & Project Management,Product & Project Management
+dj_23394383-4c18-5beb-829f-1a8ea0ff39fb,Product & Project Management,Product & Project Management
+dj_7297eb61-ae7a-5565-b2bd-39093a06b5d0,Product & Project Management,Product & Project Management
+dj_67d03ccc-894f-53bf-b54a-822739c9bb36,Product & Project Management,Product & Project Management
+dj_a602d2ef-9e08-55e0-8943-830479727948,Product & Project Management,Product & Project Management
+dj_a791b91d-f863-5e61-9d84-b2f06d7884c7,Product & Project Management,Product & Project Management
+dj_8c6bf09e-9778-56ff-a68b-bb1bfce9b23a,QA & Testing,QA & Testing
+dj_1899e3f0-306e-579c-a57c-5d99cfe49299,QA & Testing,QA & Testing
+dj_4fce4ce6-4c37-5734-a5d2-b2c6a10841c6,QA & Testing,QA & Testing
+dj_d3ffffda-6bcc-532f-8a16-ca4e3fc31810,QA & Testing,QA & Testing
+dj_e8e971c0-4620-559b-a051-f7abd9c84f8a,QA & Testing,QA & Testing
+dj_e408ec71-6a8a-5e25-8fc7-26405f484cfc,QA & Testing,QA & Testing
+dj_f3822d1d-6e12-572a-8c94-292d67630e16,QA & Testing,QA & Testing
+dj_e0a9f061-0fed-5faa-9822-6f24da879dd2,QA & Testing,QA & Testing
+dj_1a9f30ec-4d0d-59b6-a13f-15d184b0b5ad,QA & Testing,QA & Testing
+dj_5c726a5b-bd95-59e1-a29e-d01d7ad0f6bd,QA & Testing,QA & Testing
+dj_5706aae6-3f44-55c9-bfdf-bb490ccef2b9,QA & Testing,QA & Testing
+dj_a2beed28-71eb-52e7-bb1d-15068236ba0b,QA & Testing,QA & Testing
+dj_2d05d362-7c81-52b6-a5cd-5ca6d33ddbfd,QA & Testing,QA & Testing
+dj_6e48510b-fba9-5a00-8947-a349517e30a6,QA & Testing,QA & Testing
+dj_48dbd480-49ac-5387-a288-493aa21e84f8,QA & Testing,QA & Testing
+dj_690eff96-ac74-5c04-916e-dae067344b8d,QA & Testing,QA & Testing
+dj_ec9afb0a-f821-545d-8171-06cebb40874e,QA & Testing,QA & Testing
+dj_2e5a9fe5-1e45-5a0d-925a-548781331888,QA & Testing,QA & Testing
+dj_488188bf-0a08-5f2b-b6bc-fb22140794ed,QA & Testing,QA & Testing
+dj_f75220b0-4fd3-5536-b643-d96b79e516a2,QA & Testing,QA & Testing
+dj_e072f6d3-096b-57a0-93f3-abc718862fce,QA & Testing,QA & Testing
+dj_9bb905ac-748b-5879-aa92-490647a71e85,QA & Testing,QA & Testing
+dj_b50c4913-6a49-57e5-8ed4-a9ae87b3da57,QA & Testing,QA & Testing
+dj_3843392d-09d8-501a-98fb-99768a6dcc39,QA & Testing,QA & Testing
+dj_6e9ccb30-15cc-59bc-9174-3bc3e5a0c2a9,QA & Testing,QA & Testing
+dj_a5f8f114-0731-5367-8272-3460b224a203,QA & Testing,QA & Testing
+dj_ee02285c-fa6e-570a-9792-d5ee11807ced,QA & Testing,QA & Testing
+dj_679979b6-3e20-550d-94f6-a445db14afca,QA & Testing,QA & Testing
+dj_cb7107b0-0c2b-5783-a5ea-715e4bd9a9c6,QA & Testing,QA & Testing
+dj_110de7a3-1dea-5581-8a46-3c514429ecf7,QA & Testing,QA & Testing
+dj_2843a455-c27e-5fbf-ba14-89f3ea758e4b,QA & Testing,QA & Testing
+dj_ddab917e-4e5a-56b7-a645-6eff2f369a72,QA & Testing,QA & Testing
+dj_0c45b6a8-7c21-53fc-975f-11f8b850e9ab,QA & Testing,QA & Testing
+dj_86898056-b8ee-5287-a4a5-4defe9d87d82,QA & Testing,QA & Testing
+dj_a0b0e552-714a-5070-a1d9-d92ac9333059,QA & Testing,QA & Testing
+dj_cc6cc2ca-af3a-5cdc-83e8-ef050a4dbee7,QA & Testing,QA & Testing
+dj_a668e9d9-4723-5f7e-a0e1-b77ac1a5c845,QA & Testing,QA & Testing
+dj_12fb8068-e736-58d6-830c-1fc2db7cd02f,QA & Testing,DevOps & Cloud
+dj_b873aed5-cc3e-58ab-914c-44d191af3b5d,QA & Testing,QA & Testing
+dj_02654878-f7ea-5402-bc96-aef21c562588,QA & Testing,QA & Testing
+dj_ddf3732a-e771-563b-819f-b202cb78eafe,UI/UX Design,UI/UX Design
+dj_f112f3c5-a4c0-5ba8-b1c3-0adfae2dad68,UI/UX Design,UI/UX Design
+dj_1efe5f24-6a77-5f89-abcc-ca5d1bb66554,UI/UX Design,UI/UX Design
+dj_503e018a-287d-51f6-9939-86144b63c780,UI/UX Design,UI/UX Design
+dj_da4178cc-d88c-5a1d-a0a6-c570f0aa5b2e,UI/UX Design,UI/UX Design
+dj_934ceeeb-d762-5332-bf20-f22bef689abb,UI/UX Design,UI/UX Design
+dj_e788ed37-726a-5055-b48d-9aa07cc47c0c,UI/UX Design,UI/UX Design
+dj_1ea1e82c-2dd5-5d38-b5e2-b947ce26f0cd,UI/UX Design,UI/UX Design
+dj_57fd3a69-92d6-5833-9b4f-9f7e61e7d15f,UI/UX Design,UI/UX Design
+dj_690724fc-7c86-5e58-9f30-d7e64d34a7dc,UI/UX Design,UI/UX Design
+dj_021a890e-119f-538c-bb15-7342d9a81d31,UI/UX Design,UI/UX Design
+dj_2022a48e-fc4a-520b-8cd3-2d2c0784d6c9,UI/UX Design,UI/UX Design
+dj_e09f57ab-a7a1-5d6a-b8d9-a3603653a9c7,UI/UX Design,UI/UX Design
+dj_8ef315b1-65f3-56bd-8787-e4df4ec1619d,UI/UX Design,UI/UX Design
+dj_4cc936c2-c739-5b4a-913e-649b2c115bc2,UI/UX Design,UI/UX Design
+dj_3bf0ff0e-fac8-509b-b4d9-1641c8a8b458,UI/UX Design,UI/UX Design
+dj_45ef14c3-2c50-540a-9f39-23bb6c91b5fd,UI/UX Design,UI/UX Design
+dj_71f2ef9a-4478-53cf-800a-f9f4ad4484e8,UI/UX Design,UI/UX Design
+dj_32cec370-90cf-5632-9b72-1d8188db0597,UI/UX Design,UI/UX Design
+dj_959edd8b-b092-5e25-9355-fbe897134607,UI/UX Design,UI/UX Design
+dj_f18d4fed-0a1d-541d-846c-c836ae9dba6d,UI/UX Design,UI/UX Design
+dj_849e8211-0fcc-5ad3-837e-8a3fe76c2690,UI/UX Design,UI/UX Design
+dj_c3b7e9c3-b828-5d1b-baac-09580c1c98d2,UI/UX Design,UI/UX Design
+dj_cc996a90-d4a8-5d31-bf42-05976a08a712,UI/UX Design,UI/UX Design
+dj_285a0f57-b3bb-5099-8128-57b485d81623,UI/UX Design,UI/UX Design
+dj_86e8e703-ac03-54d0-9275-73145a7f9b2f,UI/UX Design,Web Development
+dj_263432dc-a201-5959-b3c2-eb2c9819965d,UI/UX Design,UI/UX Design
+dj_d7d5d92e-772f-5c88-9988-bc52291b52a6,UI/UX Design,UI/UX Design
+dj_6d217aba-de0b-5606-824b-4dcb55fac2d0,UI/UX Design,UI/UX Design
+dj_bc490a5c-5d6b-5528-aacc-b1542a6bade5,UI/UX Design,UI/UX Design
+dj_88282b9a-48b4-506c-b8a0-540c12fb5d90,UI/UX Design,UI/UX Design
+dj_92f5383e-322e-5131-bbf5-e59fbe2541eb,UI/UX Design,UI/UX Design
+dj_b90bc6de-5a45-5c8c-a29f-a527e05298e1,UI/UX Design,UI/UX Design
+dj_9ff6f9f6-5e81-5197-864c-efec95c5b471,UI/UX Design,UI/UX Design
+dj_7526e947-5454-54ba-944b-2bc91902a7ef,UI/UX Design,UI/UX Design
+dj_8e9d883f-68bc-5ebb-86ff-616388876d76,UI/UX Design,Web Development
+dj_aa0f6f49-32ad-5927-a66f-7e6fd334bfac,UI/UX Design,UI/UX Design
+dj_87775160-36ac-507e-b284-69564f3071bc,UI/UX Design,UI/UX Design
+dj_642f8efb-4294-5e69-8cc5-1a651c292a2e,UI/UX Design,UI/UX Design
+dj_fb45dcce-30c7-5a28-b2e5-be594e2185dd,UI/UX Design,UI/UX Design
+dj_0161cbd1-22e6-5d4f-89c4-6921be456ffd,Web Development,QA & Testing
+dj_23d0fd9e-98fb-591b-a823-252367413b99,Web Development,Web Development
+dj_99836fdf-2e20-5786-8590-6efc20b4d265,Web Development,Web Development
+dj_6b8be3d6-3113-58f2-a5ef-d3f6fd307fb6,Web Development,Web Development
+dj_9c93b5b0-f55a-58fa-8312-143ba965cde3,Web Development,Web Development
+dj_d44f19f7-4f80-54d6-852e-39e4bd629d65,Web Development,Mobile Development
+dj_7282cfcc-22cd-5a38-a198-2dab72106b1a,Web Development,Web Development
+dj_0956a6ef-0718-5ad5-bc4b-60e9e42a6e7f,Web Development,UI/UX Design
+dj_2969e8c2-a484-5576-844c-83040a258b95,Web Development,Web Development
+dj_b7a93a84-0399-5b19-a126-c1e6a7129b7d,Web Development,Web Development
+dj_222e5a91-c07c-56c3-bf3e-e6d7f2ce9041,Web Development,Web Development
+dj_69a76671-167f-561d-9cdd-c38a6c9e065a,Web Development,Web Development
+dj_499d6c4e-67c2-578d-876b-6f903284cc4b,Web Development,Web Development
+dj_efee27a7-3223-5725-9434-a0f565be5f01,Web Development,Web Development
+dj_c527d144-50c0-57b3-b70e-c09a7b103de4,Web Development,Web Development
+dj_c10f34b2-02f0-5665-b842-6d15f64660cc,Web Development,Web Development
+dj_628745db-0e7c-5098-aba8-5e15192d81ec,Web Development,DevOps & Cloud
+dj_c0086d7a-a3ec-5152-aa3c-af7fe7059911,Web Development,Web Development
+dj_d80eb906-8beb-5c73-95c9-9c114ed34fe1,Web Development,Web Development
+dj_35803728-7c36-5439-b7b3-1ddb4c4cf580,Web Development,Web Development
+dj_9c4cb3bd-b530-5e69-ac4d-b3d517450142,Web Development,Web Development
+dj_8e16db38-acdd-57b7-954e-0c45e004262c,Web Development,DevOps & Cloud
+dj_04a17663-f8fb-5199-8b5b-c2b4664d6704,Web Development,Web Development
+dj_5d03843a-5fb7-5e63-b8a7-d77cea0714d6,Web Development,Web Development
+dj_f0014efc-1005-59a9-9a37-67e30f895b2d,Web Development,Web Development
+dj_f244a5bb-da6f-528f-9e5c-ff1b95d1f8b0,Web Development,Web Development
+dj_33932410-247e-5ee5-9e0f-bf60bb82bec2,Web Development,Web Development
+dj_df936961-7d7c-59b9-99cf-7dbb62c2013b,Web Development,Product & Project Management
+dj_461bdcd1-f8f7-5920-976e-0c9c8e4513bd,Web Development,Web Development
+dj_864380f5-7a0d-5ec3-ba8f-42c1b42abf48,Web Development,Web Development
+dj_ec8623eb-cbfb-5d9d-8afb-74ab25c483bd,Web Development,Web Development
+dj_ee90e34b-2bff-5ece-b64a-35cf5391a13c,Web Development,Web Development
+dj_e612c44b-e9fc-5fcb-a7a8-fb64244eaeff,Web Development,Web Development
+dj_bdc3c371-3ac8-570b-8c7e-01af600fe00c,Web Development,Web Development
+dj_da23e359-9cda-59c3-8902-23c117e232f8,Web Development,DevOps & Cloud
+dj_09bcc8de-f006-5d3c-9c4f-69081df00a6e,Web Development,Web Development
+dj_808579b6-8cfe-5d6a-b1c3-bef2144273af,Web Development,DevOps & Cloud
+dj_d11f6f1e-9666-55fc-859b-9c75f221f291,Web Development,Web Development
+dj_b8e7f415-9f79-5865-ace1-91f512e5e920,Web Development,Web Development
+dj_7ac93fb5-4a16-5fd8-8f40-b80d89d98c7a,Web Development,Web Development

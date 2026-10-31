@@ -1,0 +1,102 @@
+{
+  "model": "jobbert_seed7",
+  "dataset": "faruque",
+  "summary": {
+    "acc": 0.9302,
+    "macro_f1": 0.9395,
+    "top3": 0.9939,
+    "acc_sd": 0.0133,
+    "macro_f1_sd": 0.0091,
+    "top3_sd": 0.0032,
+    "folds": 5
+  },
+  "folds": [
+    {
+      "n": 427,
+      "acc": 0.9180327868852459,
+      "macro_f1": 0.9300041853812999,
+      "top3": 0.9882903981264637
+    },
+    {
+      "n": 427,
+      "acc": 0.955503512880562,
+      "macro_f1": 0.9566846544122095,
+      "top3": 0.9976580796252927
+    },
+    {
+      "n": 429,
+      "acc": 0.9207459207459208,
+      "macro_f1": 0.9345948001410912,
+      "top3": 0.9953379953379954
+    },
+    {
+      "n": 426,
+      "acc": 0.9295774647887324,
+      "macro_f1": 0.936696262923923,
+      "top3": 0.9929577464788732
+    },
+    {
+      "n": 426,
+      "acc": 0.9272300469483568,
+      "macro_f1": 0.9394594411300458,
+      "top3": 0.9953051643192489
+    }
+  ],
+  "time": "2026-10-30 18:04",
+  "top_confusions": [
+    [
+      "Software Development and Engineering",
+      "Development",
+      22
+    ],
+    [
+      "Software Development and Engineering",
+      "Artificial Intelligence",
+      21
+    ],
+    [
+      "Data Science",
+      "Artificial Intelligence",
+      15
+    ],
+    [
+      "Development",
+      "Software Development and Engineering",
+      15
+    ],
+    [
+      "Artificial Intelligence",
+      "Software Development and Engineering",
+      12
+    ],
+    [
+      "Artificial Intelligence",
+      "Data Science",
+      10
+    ],
+    [
+      "Software Development and Engineering",
+      "Data Science",
+      9
+    ],
+    [
+      "Security",
+      "Software Development and Engineering",
+      8
+    ]
+  ],
+  "config": {
+    "model": "jjzha/jobbert-base-cased",
+    "tag": "jobbert_seed7",
+    "datasets": "djinni,faruque",
+    "folds": "0,1,2,3,4",
+    "epochs": 3,
+    "lr": 5e-05,
+    "batch": 32,
+    "max_len": 256,
+    "seed": 7,
+    "limit": 0,
+    "skip_forms": true,
+    "eval_variants": ""
+  }
+}
