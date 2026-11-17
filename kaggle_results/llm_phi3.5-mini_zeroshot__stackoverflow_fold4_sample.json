@@ -1,0 +1,68 @@
+{
+  "model": "llm_phi3.5-mini_zeroshot",
+  "dataset": "stackoverflow_fold4_sample",
+  "summary": {
+    "n": 520,
+    "acc": 0.15384615384615385,
+    "macro_f1": 0.08756595479041424,
+    "top3": 0.3096153846153846
+  },
+  "folds": [],
+  "time": "2026-11-13 00:17",
+  "top_confusions": [
+    [
+      "Cybersecurity",
+      "Data Engineering & Databases",
+      27
+    ],
+    [
+      "Data Science & Analytics",
+      "Data Engineering & Databases",
+      24
+    ],
+    [
+      "UI/UX Design",
+      "Web Development",
+      24
+    ],
+    [
+      "AI/ML Engineering",
+      "Data Engineering & Databases",
+      21
+    ],
+    [
+      "QA & Testing",
+      "Data Engineering & Databases",
+      21
+    ],
+    [
+      "DevOps & Cloud",
+      "Data Engineering & Databases",
+      20
+    ],
+    [
+      "Networking & SysAdmin",
+      "Web Development",
+      20
+    ],
+    [
+      "Product & Project Management",
+      "Data Engineering & Databases",
+      20
+    ]
+  ],
+  "config": {
+    "model": "microsoft/Phi-3.5-mini-instruct",
+    "tag": "llm_phi3.5-mini_zeroshot",
+    "datasets": "stackoverflow",
+    "per_class": 40,
+    "max_words": 250,
+    "end_text": "<|end|>",
+    "limit": 0,
+    "prompt_variant": "default",
+    "shots": 0,
+    "shot_words": 60,
+    "folds": "0,1,2,3,4",
+    "device_map": "auto"
+  }
+}

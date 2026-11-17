@@ -1,0 +1,68 @@
+{
+  "model": "llm_qwen2.5-3b_zeroshot",
+  "dataset": "stackoverflow_fold1_sample",
+  "summary": {
+    "n": 520,
+    "acc": 0.14615384615384616,
+    "macro_f1": 0.07361655075979881,
+    "top3": 0.34615384615384615
+  },
+  "folds": [],
+  "time": "2026-11-12 21:07",
+  "top_confusions": [
+    [
+      "Data Science & Analytics",
+      "Data Engineering & Databases",
+      30
+    ],
+    [
+      "Mobile Development",
+      "Web Development",
+      28
+    ],
+    [
+      "UI/UX Design",
+      "Web Development",
+      28
+    ],
+    [
+      "Game Development",
+      "Web Development",
+      25
+    ],
+    [
+      "AI/ML Engineering",
+      "Data Engineering & Databases",
+      24
+    ],
+    [
+      "Product & Project Management",
+      "Web Development",
+      22
+    ],
+    [
+      "DevOps & Cloud",
+      "Data Engineering & Databases",
+      20
+    ],
+    [
+      "Networking & SysAdmin",
+      "Data Engineering & Databases",
+      20
+    ]
+  ],
+  "config": {
+    "model": "Qwen/Qwen2.5-3B-Instruct",
+    "tag": "llm_qwen2.5-3b_zeroshot",
+    "datasets": "stackoverflow",
+    "per_class": 40,
+    "max_words": 250,
+    "end_text": "<|im_end|>",
+    "limit": 0,
+    "prompt_variant": "default",
+    "shots": 0,
+    "shot_words": 60,
+    "folds": "0,1,2,3,4",
+    "device_map": ""
+  }
+}

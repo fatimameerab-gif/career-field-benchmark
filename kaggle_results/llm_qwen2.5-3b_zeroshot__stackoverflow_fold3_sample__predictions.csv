@@ -1,0 +1,521 @@
+id,true,pred
+so2025_42925,AI/ML Engineering,Data Engineering & Databases
+so2024_42456,AI/ML Engineering,AI/ML Engineering
+so2025_48132,AI/ML Engineering,Data Engineering & Databases
+so2025_23104,AI/ML Engineering,Data Engineering & Databases
+so2024_34346,AI/ML Engineering,Web Development
+so2024_2613,AI/ML Engineering,DevOps & Cloud
+so2025_35542,AI/ML Engineering,DevOps & Cloud
+so2025_39601,AI/ML Engineering,DevOps & Cloud
+so2024_30063,AI/ML Engineering,Web Development
+so2024_23520,AI/ML Engineering,Web Development
+so2024_33754,AI/ML Engineering,Data Engineering & Databases
+so2024_37511,AI/ML Engineering,Data Engineering & Databases
+so2024_39516,AI/ML Engineering,DevOps & Cloud
+so2024_24452,AI/ML Engineering,Data Engineering & Databases
+so2024_55438,AI/ML Engineering,DevOps & Cloud
+so2025_38140,AI/ML Engineering,Web Development
+so2025_43921,AI/ML Engineering,Data Engineering & Databases
+so2024_3628,AI/ML Engineering,Data Engineering & Databases
+so2024_51450,AI/ML Engineering,Data Engineering & Databases
+so2024_13088,AI/ML Engineering,Data Engineering & Databases
+so2025_44906,AI/ML Engineering,Data Engineering & Databases
+so2025_16341,AI/ML Engineering,DevOps & Cloud
+so2025_45268,AI/ML Engineering,Data Engineering & Databases
+so2025_28651,AI/ML Engineering,DevOps & Cloud
+so2024_5788,AI/ML Engineering,Web Development
+so2025_21584,AI/ML Engineering,Web Development
+so2024_1427,AI/ML Engineering,Data Engineering & Databases
+so2025_2864,AI/ML Engineering,DevOps & Cloud
+so2025_46115,AI/ML Engineering,Web Development
+so2024_65073,AI/ML Engineering,DevOps & Cloud
+so2024_26970,AI/ML Engineering,Web Development
+so2025_42605,AI/ML Engineering,Web Development
+so2024_53294,AI/ML Engineering,Web Development
+so2025_35601,AI/ML Engineering,Web Development
+so2025_19758,AI/ML Engineering,Data Engineering & Databases
+so2025_11714,AI/ML Engineering,Data Engineering & Databases
+so2024_45362,AI/ML Engineering,Web Development
+so2025_45740,AI/ML Engineering,Web Development
+so2025_20107,AI/ML Engineering,Data Engineering & Databases
+so2024_28950,AI/ML Engineering,Web Development
+so2023_32730,Cybersecurity,DevOps & Cloud
+so2023_87043,Cybersecurity,Data Engineering & Databases
+so2023_37325,Cybersecurity,Web Development
+so2025_18760,Cybersecurity,Web Development
+so2025_30310,Cybersecurity,Data Engineering & Databases
+so2025_4269,Cybersecurity,DevOps & Cloud
+so2023_19224,Cybersecurity,Data Engineering & Databases
+so2025_45603,Cybersecurity,Data Engineering & Databases
+so2023_81115,Cybersecurity,Web Development
+so2023_45597,Cybersecurity,Web Development
+so2024_24616,Cybersecurity,Web Development
+so2023_24844,Cybersecurity,DevOps & Cloud
+so2025_34203,Cybersecurity,Data Engineering & Databases
+so2025_32670,Cybersecurity,Data Engineering & Databases
+so2023_8744,Cybersecurity,DevOps & Cloud
+so2025_24591,Cybersecurity,DevOps & Cloud
+so2025_43692,Cybersecurity,DevOps & Cloud
+so2025_3649,Cybersecurity,Web Development
+so2023_15253,Cybersecurity,DevOps & Cloud
+so2024_63722,Cybersecurity,Web Development
+so2024_56100,Cybersecurity,Data Engineering & Databases
+so2025_7134,Cybersecurity,DevOps & Cloud
+so2023_7509,Cybersecurity,Data Engineering & Databases
+so2025_32898,Cybersecurity,Web Development
+so2023_76766,Cybersecurity,Data Engineering & Databases
+so2024_27507,Cybersecurity,DevOps & Cloud
+so2024_38816,Cybersecurity,Data Engineering & Databases
+so2024_38440,Cybersecurity,Web Development
+so2023_71263,Cybersecurity,Data Engineering & Databases
+so2025_25536,Cybersecurity,DevOps & Cloud
+so2024_22525,Cybersecurity,Data Engineering & Databases
+so2024_8419,Cybersecurity,Web Development
+so2023_81623,Cybersecurity,Data Engineering & Databases
+so2023_49906,Cybersecurity,Data Engineering & Databases
+so2023_68370,Cybersecurity,Data Engineering & Databases
+so2023_32200,Cybersecurity,Data Engineering & Databases
+so2025_3310,Cybersecurity,Data Engineering & Databases
+so2023_19102,Cybersecurity,DevOps & Cloud
+so2023_19485,Cybersecurity,Web Development
+so2025_45207,Cybersecurity,Web Development
+so2024_45774,Data Engineering & Databases,Web Development
+so2024_28823,Data Engineering & Databases,Data Engineering & Databases
+so2024_7594,Data Engineering & Databases,Data Engineering & Databases
+so2023_23824,Data Engineering & Databases,Data Engineering & Databases
+so2025_28522,Data Engineering & Databases,Data Engineering & Databases
+so2025_25847,Data Engineering & Databases,Data Engineering & Databases
+so2024_20501,Data Engineering & Databases,Web Development
+so2023_11221,Data Engineering & Databases,Data Engineering & Databases
+so2025_33306,Data Engineering & Databases,Data Engineering & Databases
+so2024_47518,Data Engineering & Databases,Data Engineering & Databases
+so2024_46114,Data Engineering & Databases,Data Engineering & Databases
+so2024_34881,Data Engineering & Databases,Data Engineering & Databases
+so2025_28939,Data Engineering & Databases,Data Engineering & Databases
+so2024_43805,Data Engineering & Databases,Data Engineering & Databases
+so2023_69659,Data Engineering & Databases,Data Engineering & Databases
+so2025_15173,Data Engineering & Databases,DevOps & Cloud
+so2024_47273,Data Engineering & Databases,Data Engineering & Databases
+so2024_26880,Data Engineering & Databases,Data Engineering & Databases
+so2023_82882,Data Engineering & Databases,Web Development
+so2023_40635,Data Engineering & Databases,Data Engineering & Databases
+so2024_5823,Data Engineering & Databases,Web Development
+so2023_45641,Data Engineering & Databases,Web Development
+so2024_23696,Data Engineering & Databases,Data Engineering & Databases
+so2023_71454,Data Engineering & Databases,DevOps & Cloud
+so2023_52314,Data Engineering & Databases,Data Engineering & Databases
+so2023_20025,Data Engineering & Databases,Web Development
+so2025_1615,Data Engineering & Databases,Data Engineering & Databases
+so2023_27020,Data Engineering & Databases,Web Development
+so2024_40678,Data Engineering & Databases,Data Engineering & Databases
+so2024_36681,Data Engineering & Databases,Data Engineering & Databases
+so2025_14874,Data Engineering & Databases,Data Engineering & Databases
+so2024_4028,Data Engineering & Databases,Data Engineering & Databases
+so2023_19648,Data Engineering & Databases,Data Engineering & Databases
+so2023_77808,Data Engineering & Databases,Data Engineering & Databases
+so2025_15918,Data Engineering & Databases,Data Engineering & Databases
+so2023_7771,Data Engineering & Databases,Data Engineering & Databases
+so2025_17357,Data Engineering & Databases,Web Development
+so2024_39266,Data Engineering & Databases,Data Engineering & Databases
+so2024_3274,Data Engineering & Databases,Data Engineering & Databases
+so2025_42473,Data Engineering & Databases,Data Engineering & Databases
+so2025_3191,Data Science & Analytics,Data Engineering & Databases
+so2024_27967,Data Science & Analytics,DevOps & Cloud
+so2024_42844,Data Science & Analytics,Data Engineering & Databases
+so2025_27662,Data Science & Analytics,Data Engineering & Databases
+so2023_45217,Data Science & Analytics,Data Engineering & Databases
+so2023_6393,Data Science & Analytics,Data Engineering & Databases
+so2023_68637,Data Science & Analytics,Web Development
+so2023_70194,Data Science & Analytics,Web Development
+so2024_16389,Data Science & Analytics,Web Development
+so2025_43989,Data Science & Analytics,Data Engineering & Databases
+so2023_81398,Data Science & Analytics,Data Engineering & Databases
+so2025_17250,Data Science & Analytics,Data Engineering & Databases
+so2023_36724,Data Science & Analytics,Web Development
+so2023_3510,Data Science & Analytics,Web Development
+so2023_67257,Data Science & Analytics,Data Engineering & Databases
+so2024_56798,Data Science & Analytics,Data Engineering & Databases
+so2025_237,Data Science & Analytics,Web Development
+so2025_30909,Data Science & Analytics,Data Engineering & Databases
+so2023_36749,Data Science & Analytics,Data Engineering & Databases
+so2024_34464,Data Science & Analytics,Data Engineering & Databases
+so2024_41641,Data Science & Analytics,Data Engineering & Databases
+so2025_889,Data Science & Analytics,Data Engineering & Databases
+so2025_38201,Data Science & Analytics,Data Engineering & Databases
+so2024_12622,Data Science & Analytics,DevOps & Cloud
+so2023_11029,Data Science & Analytics,Web Development
+so2023_1618,Data Science & Analytics,DevOps & Cloud
+so2023_4585,Data Science & Analytics,Web Development
+so2023_19531,Data Science & Analytics,Data Engineering & Databases
+so2025_16960,Data Science & Analytics,Web Development
+so2023_44573,Data Science & Analytics,Data Engineering & Databases
+so2023_48997,Data Science & Analytics,Data Engineering & Databases
+so2025_32656,Data Science & Analytics,Data Engineering & Databases
+so2025_32544,Data Science & Analytics,DevOps & Cloud
+so2025_39270,Data Science & Analytics,Data Engineering & Databases
+so2025_17116,Data Science & Analytics,Data Engineering & Databases
+so2023_78206,Data Science & Analytics,DevOps & Cloud
+so2023_86515,Data Science & Analytics,Web Development
+so2025_3030,Data Science & Analytics,Data Engineering & Databases
+so2024_9258,Data Science & Analytics,Web Development
+so2023_74908,Data Science & Analytics,Data Engineering & Databases
+so2023_39906,DevOps & Cloud,Web Development
+so2023_48978,DevOps & Cloud,Data Engineering & Databases
+so2024_30450,DevOps & Cloud,DevOps & Cloud
+so2024_39735,DevOps & Cloud,DevOps & Cloud
+so2024_29718,DevOps & Cloud,Data Engineering & Databases
+so2023_47285,DevOps & Cloud,Web Development
+so2023_21138,DevOps & Cloud,Data Engineering & Databases
+so2024_1436,DevOps & Cloud,Data Engineering & Databases
+so2023_37950,DevOps & Cloud,DevOps & Cloud
+so2023_10209,DevOps & Cloud,DevOps & Cloud
+so2023_65959,DevOps & Cloud,Web Development
+so2023_85517,DevOps & Cloud,DevOps & Cloud
+so2023_84592,DevOps & Cloud,DevOps & Cloud
+so2024_37246,DevOps & Cloud,DevOps & Cloud
+so2023_58447,DevOps & Cloud,DevOps & Cloud
+so2023_58608,DevOps & Cloud,DevOps & Cloud
+so2024_5995,DevOps & Cloud,Web Development
+so2024_19555,DevOps & Cloud,Data Engineering & Databases
+so2023_30301,DevOps & Cloud,Data Engineering & Databases
+so2025_13376,DevOps & Cloud,Web Development
+so2024_1738,DevOps & Cloud,DevOps & Cloud
+so2024_48800,DevOps & Cloud,Web Development
+so2023_44111,DevOps & Cloud,Data Engineering & Databases
+so2024_23592,DevOps & Cloud,Web Development
+so2024_39289,DevOps & Cloud,Data Engineering & Databases
+so2023_45216,DevOps & Cloud,DevOps & Cloud
+so2024_5645,DevOps & Cloud,Web Development
+so2024_26358,DevOps & Cloud,DevOps & Cloud
+so2025_36939,DevOps & Cloud,DevOps & Cloud
+so2024_27109,DevOps & Cloud,Web Development
+so2023_75920,DevOps & Cloud,Web Development
+so2023_37544,DevOps & Cloud,Data Engineering & Databases
+so2025_696,DevOps & Cloud,DevOps & Cloud
+so2023_31494,DevOps & Cloud,Web Development
+so2023_13825,DevOps & Cloud,Data Engineering & Databases
+so2024_5181,DevOps & Cloud,Web Development
+so2025_17496,DevOps & Cloud,DevOps & Cloud
+so2023_4975,DevOps & Cloud,Web Development
+so2024_18540,DevOps & Cloud,Web Development
+so2024_29304,DevOps & Cloud,Data Engineering & Databases
+so2025_45596,Embedded & IoT,Web Development
+so2024_16473,Embedded & IoT,Data Engineering & Databases
+so2024_53845,Embedded & IoT,Web Development
+so2024_48106,Embedded & IoT,Web Development
+so2024_24441,Embedded & IoT,Web Development
+so2025_28598,Embedded & IoT,Data Engineering & Databases
+so2023_71874,Embedded & IoT,Data Engineering & Databases
+so2024_35886,Embedded & IoT,Data Engineering & Databases
+so2025_11183,Embedded & IoT,Web Development
+so2023_84287,Embedded & IoT,Web Development
+so2024_23284,Embedded & IoT,Data Engineering & Databases
+so2024_45492,Embedded & IoT,Data Engineering & Databases
+so2024_245,Embedded & IoT,Data Engineering & Databases
+so2023_22832,Embedded & IoT,DevOps & Cloud
+so2023_71949,Embedded & IoT,Web Development
+so2023_9350,Embedded & IoT,Data Engineering & Databases
+so2024_44344,Embedded & IoT,Web Development
+so2024_44872,Embedded & IoT,DevOps & Cloud
+so2024_59078,Embedded & IoT,Web Development
+so2023_31403,Embedded & IoT,Data Engineering & Databases
+so2023_33190,Embedded & IoT,Data Engineering & Databases
+so2024_46380,Embedded & IoT,Data Engineering & Databases
+so2024_1422,Embedded & IoT,Data Engineering & Databases
+so2024_33026,Embedded & IoT,Data Engineering & Databases
+so2024_32088,Embedded & IoT,Data Engineering & Databases
+so2023_21822,Embedded & IoT,DevOps & Cloud
+so2024_40613,Embedded & IoT,DevOps & Cloud
+so2023_72100,Embedded & IoT,Data Engineering & Databases
+so2023_72835,Embedded & IoT,Data Engineering & Databases
+so2025_33780,Embedded & IoT,Data Engineering & Databases
+so2025_40828,Embedded & IoT,DevOps & Cloud
+so2023_6859,Embedded & IoT,Data Engineering & Databases
+so2025_5741,Embedded & IoT,Data Engineering & Databases
+so2023_53941,Embedded & IoT,DevOps & Cloud
+so2024_1681,Embedded & IoT,Data Engineering & Databases
+so2023_82713,Embedded & IoT,Data Engineering & Databases
+so2024_20614,Embedded & IoT,Data Engineering & Databases
+so2024_5916,Embedded & IoT,Web Development
+so2023_37804,Embedded & IoT,Data Engineering & Databases
+so2024_58967,Embedded & IoT,Data Engineering & Databases
+so2023_7736,Game Development,Web Development
+so2025_27102,Game Development,Data Engineering & Databases
+so2023_21123,Game Development,DevOps & Cloud
+so2023_60347,Game Development,Web Development
+so2024_25192,Game Development,Web Development
+so2023_9869,Game Development,Web Development
+so2023_70879,Game Development,Web Development
+so2023_84445,Game Development,Data Engineering & Databases
+so2023_45489,Game Development,Web Development
+so2025_14939,Game Development,DevOps & Cloud
+so2024_27134,Game Development,Web Development
+so2023_62183,Game Development,DevOps & Cloud
+so2023_29229,Game Development,Data Engineering & Databases
+so2025_3339,Game Development,Data Engineering & Databases
+so2023_38391,Game Development,DevOps & Cloud
+so2023_62149,Game Development,AI/ML Engineering
+so2025_27528,Game Development,DevOps & Cloud
+so2025_46302,Game Development,DevOps & Cloud
+so2023_10646,Game Development,DevOps & Cloud
+so2023_5683,Game Development,Web Development
+so2025_12212,Game Development,Game Development
+so2023_28481,Game Development,Data Engineering & Databases
+so2023_18036,Game Development,Web Development
+so2023_68212,Game Development,Web Development
+so2023_33222,Game Development,DevOps & Cloud
+so2023_52470,Game Development,Web Development
+so2023_71151,Game Development,Web Development
+so2024_43687,Game Development,AI/ML Engineering
+so2025_10294,Game Development,DevOps & Cloud
+so2023_84441,Game Development,Mobile Development
+so2024_43641,Game Development,Web Development
+so2023_32945,Game Development,Data Engineering & Databases
+so2024_61344,Game Development,Game Development
+so2023_86182,Game Development,Web Development
+so2023_53719,Game Development,Web Development
+so2024_27778,Game Development,Web Development
+so2024_14701,Game Development,Web Development
+so2023_23411,Game Development,Web Development
+so2024_48240,Game Development,Data Engineering & Databases
+so2025_20714,Game Development,DevOps & Cloud
+so2023_14877,Mobile Development,Web Development
+so2023_6277,Mobile Development,Mobile Development
+so2023_31232,Mobile Development,Web Development
+so2024_15937,Mobile Development,Mobile Development
+so2024_52020,Mobile Development,Web Development
+so2023_46829,Mobile Development,Data Engineering & Databases
+so2023_53394,Mobile Development,Web Development
+so2023_62229,Mobile Development,Web Development
+so2024_19977,Mobile Development,DevOps & Cloud
+so2023_15879,Mobile Development,Web Development
+so2024_23459,Mobile Development,DevOps & Cloud
+so2023_50585,Mobile Development,Mobile Development
+so2025_17121,Mobile Development,Web Development
+so2024_57864,Mobile Development,DevOps & Cloud
+so2023_82298,Mobile Development,Web Development
+so2023_28788,Mobile Development,Web Development
+so2023_51065,Mobile Development,Web Development
+so2023_28198,Mobile Development,Web Development
+so2025_5992,Mobile Development,Web Development
+so2023_19698,Mobile Development,Web Development
+so2023_58479,Mobile Development,DevOps & Cloud
+so2024_40966,Mobile Development,DevOps & Cloud
+so2024_26044,Mobile Development,Web Development
+so2023_15893,Mobile Development,Web Development
+so2023_64032,Mobile Development,Web Development
+so2023_18983,Mobile Development,Web Development
+so2023_63450,Mobile Development,Mobile Development
+so2023_37614,Mobile Development,DevOps & Cloud
+so2024_47660,Mobile Development,Mobile Development
+so2024_3929,Mobile Development,Data Engineering & Databases
+so2024_38250,Mobile Development,DevOps & Cloud
+so2023_74325,Mobile Development,Web Development
+so2024_45118,Mobile Development,Mobile Development
+so2023_63275,Mobile Development,Web Development
+so2025_35869,Mobile Development,Data Engineering & Databases
+so2024_4360,Mobile Development,Web Development
+so2025_21055,Mobile Development,Mobile Development
+so2024_25489,Mobile Development,DevOps & Cloud
+so2024_39541,Mobile Development,DevOps & Cloud
+so2024_49139,Mobile Development,DevOps & Cloud
+so2024_47572,Networking & SysAdmin,Data Engineering & Databases
+so2025_18323,Networking & SysAdmin,Web Development
+so2024_12984,Networking & SysAdmin,Data Engineering & Databases
+so2023_9640,Networking & SysAdmin,Web Development
+so2023_27493,Networking & SysAdmin,Data Engineering & Databases
+so2024_13199,Networking & SysAdmin,Web Development
+so2024_44764,Networking & SysAdmin,Web Development
+so2023_74161,Networking & SysAdmin,DevOps & Cloud
+so2025_12716,Networking & SysAdmin,Data Engineering & Databases
+so2023_39813,Networking & SysAdmin,Web Development
+so2024_589,Networking & SysAdmin,Data Engineering & Databases
+so2023_62033,Networking & SysAdmin,Data Engineering & Databases
+so2023_54679,Networking & SysAdmin,Data Engineering & Databases
+so2023_18375,Networking & SysAdmin,Web Development
+so2025_46075,Networking & SysAdmin,Data Engineering & Databases
+so2023_84576,Networking & SysAdmin,Web Development
+so2024_35318,Networking & SysAdmin,Data Engineering & Databases
+so2025_26135,Networking & SysAdmin,Data Engineering & Databases
+so2024_55217,Networking & SysAdmin,Data Engineering & Databases
+so2024_5753,Networking & SysAdmin,Web Development
+so2025_43679,Networking & SysAdmin,Data Engineering & Databases
+so2025_11896,Networking & SysAdmin,Data Engineering & Databases
+so2024_18677,Networking & SysAdmin,DevOps & Cloud
+so2023_65904,Networking & SysAdmin,AI/ML Engineering
+so2023_86345,Networking & SysAdmin,Data Engineering & Databases
+so2023_71045,Networking & SysAdmin,Web Development
+so2023_65039,Networking & SysAdmin,Data Engineering & Databases
+so2023_69796,Networking & SysAdmin,Web Development
+so2023_30274,Networking & SysAdmin,Data Engineering & Databases
+so2023_31773,Networking & SysAdmin,DevOps & Cloud
+so2025_39290,Networking & SysAdmin,Web Development
+so2024_37398,Networking & SysAdmin,Web Development
+so2024_56525,Networking & SysAdmin,Web Development
+so2023_76163,Networking & SysAdmin,Web Development
+so2024_37985,Networking & SysAdmin,Web Development
+so2025_42160,Networking & SysAdmin,Web Development
+so2023_72624,Networking & SysAdmin,DevOps & Cloud
+so2023_52642,Networking & SysAdmin,Data Engineering & Databases
+so2025_14719,Networking & SysAdmin,Data Engineering & Databases
+so2024_21734,Networking & SysAdmin,DevOps & Cloud
+so2024_45412,Product & Project Management,Web Development
+so2025_43182,Product & Project Management,Web Development
+so2023_43597,Product & Project Management,DevOps & Cloud
+so2025_35598,Product & Project Management,Web Development
+so2025_35094,Product & Project Management,Data Engineering & Databases
+so2024_24636,Product & Project Management,Web Development
+so2025_6011,Product & Project Management,DevOps & Cloud
+so2024_34604,Product & Project Management,Web Development
+so2024_43150,Product & Project Management,Web Development
+so2023_84745,Product & Project Management,Data Engineering & Databases
+so2025_1277,Product & Project Management,Data Engineering & Databases
+so2024_50018,Product & Project Management,Web Development
+so2023_31173,Product & Project Management,Web Development
+so2023_29924,Product & Project Management,Web Development
+so2024_21888,Product & Project Management,Web Development
+so2024_26053,Product & Project Management,Data Engineering & Databases
+so2023_8943,Product & Project Management,Web Development
+so2025_46963,Product & Project Management,Web Development
+so2024_1266,Product & Project Management,Data Engineering & Databases
+so2023_46739,Product & Project Management,Web Development
+so2024_29038,Product & Project Management,Web Development
+so2024_55913,Product & Project Management,Data Engineering & Databases
+so2023_1827,Product & Project Management,Data Engineering & Databases
+so2023_47595,Product & Project Management,Data Engineering & Databases
+so2024_811,Product & Project Management,Web Development
+so2023_56482,Product & Project Management,Data Engineering & Databases
+so2023_63819,Product & Project Management,Web Development
+so2025_768,Product & Project Management,Web Development
+so2024_51978,Product & Project Management,Web Development
+so2024_16363,Product & Project Management,Web Development
+so2023_56832,Product & Project Management,Web Development
+so2023_39723,Product & Project Management,Web Development
+so2025_5640,Product & Project Management,Web Development
+so2023_42280,Product & Project Management,DevOps & Cloud
+so2025_30277,Product & Project Management,Web Development
+so2024_7180,Product & Project Management,Web Development
+so2023_22584,Product & Project Management,Web Development
+so2023_61977,Product & Project Management,Web Development
+so2025_42432,Product & Project Management,Web Development
+so2023_81343,Product & Project Management,Web Development
+so2024_3553,QA & Testing,DevOps & Cloud
+so2025_20275,QA & Testing,Data Engineering & Databases
+so2025_16194,QA & Testing,Web Development
+so2025_33341,QA & Testing,Web Development
+so2025_36480,QA & Testing,Web Development
+so2023_48676,QA & Testing,Web Development
+so2023_13575,QA & Testing,Data Engineering & Databases
+so2024_2037,QA & Testing,DevOps & Cloud
+so2025_28326,QA & Testing,Data Engineering & Databases
+so2024_29595,QA & Testing,Data Engineering & Databases
+so2024_45386,QA & Testing,DevOps & Cloud
+so2024_13355,QA & Testing,Web Development
+so2025_35925,QA & Testing,Web Development
+so2025_29623,QA & Testing,Data Engineering & Databases
+so2023_30591,QA & Testing,Web Development
+so2025_26634,QA & Testing,Web Development
+so2024_5503,QA & Testing,Data Engineering & Databases
+so2025_12098,QA & Testing,DevOps & Cloud
+so2023_27620,QA & Testing,Data Engineering & Databases
+so2024_26984,QA & Testing,Data Engineering & Databases
+so2025_4558,QA & Testing,Web Development
+so2024_47686,QA & Testing,Data Engineering & Databases
+so2024_58796,QA & Testing,Web Development
+so2023_890,QA & Testing,DevOps & Cloud
+so2023_52839,QA & Testing,Data Engineering & Databases
+so2023_54217,QA & Testing,Data Science & Analytics
+so2023_44997,QA & Testing,DevOps & Cloud
+so2024_3381,QA & Testing,DevOps & Cloud
+so2024_17241,QA & Testing,Web Development
+so2023_37019,QA & Testing,Data Engineering & Databases
+so2024_63859,QA & Testing,DevOps & Cloud
+so2023_39248,QA & Testing,Web Development
+so2025_30770,QA & Testing,Web Development
+so2024_29216,QA & Testing,DevOps & Cloud
+so2023_29609,QA & Testing,DevOps & Cloud
+so2025_19148,QA & Testing,Web Development
+so2024_2442,QA & Testing,Data Engineering & Databases
+so2024_37843,QA & Testing,Data Engineering & Databases
+so2024_44265,QA & Testing,Web Development
+so2024_27875,QA & Testing,DevOps & Cloud
+so2023_13274,UI/UX Design,Web Development
+so2023_85916,UI/UX Design,Web Development
+so2025_21406,UI/UX Design,Web Development
+so2023_50235,UI/UX Design,DevOps & Cloud
+so2023_48053,UI/UX Design,Web Development
+so2024_241,UI/UX Design,Web Development
+so2023_17457,UI/UX Design,Data Engineering & Databases
+so2023_51930,UI/UX Design,Data Engineering & Databases
+so2023_47823,UI/UX Design,Web Development
+so2025_7276,UI/UX Design,DevOps & Cloud
+so2025_46865,UI/UX Design,Web Development
+so2023_4254,UI/UX Design,Web Development
+so2025_35881,UI/UX Design,Web Development
+so2023_33312,UI/UX Design,Web Development
+so2023_80048,UI/UX Design,Web Development
+so2023_15996,UI/UX Design,Web Development
+so2023_63206,UI/UX Design,Web Development
+so2023_62269,UI/UX Design,DevOps & Cloud
+so2024_50850,UI/UX Design,Data Engineering & Databases
+so2023_36141,UI/UX Design,Data Engineering & Databases
+so2023_60842,UI/UX Design,DevOps & Cloud
+so2023_64295,UI/UX Design,Web Development
+so2024_8081,UI/UX Design,Web Development
+so2023_87898,UI/UX Design,Web Development
+so2023_7456,UI/UX Design,Web Development
+so2023_67085,UI/UX Design,Web Development
+so2023_58717,UI/UX Design,Data Engineering & Databases
+so2024_59312,UI/UX Design,Web Development
+so2024_9624,UI/UX Design,Web Development
+so2024_35872,UI/UX Design,Web Development
+so2023_77374,UI/UX Design,Web Development
+so2024_59477,UI/UX Design,Data Engineering & Databases
+so2023_32447,UI/UX Design,Data Engineering & Databases
+so2023_60621,UI/UX Design,DevOps & Cloud
+so2023_14628,UI/UX Design,DevOps & Cloud
+so2023_81568,UI/UX Design,Web Development
+so2024_20038,UI/UX Design,AI/ML Engineering
+so2023_63461,UI/UX Design,DevOps & Cloud
+so2025_40794,UI/UX Design,Game Development
+so2023_37945,UI/UX Design,Web Development
+so2024_35559,Web Development,Web Development
+so2023_78701,Web Development,Web Development
+so2023_14668,Web Development,DevOps & Cloud
+so2024_33893,Web Development,Web Development
+so2025_39324,Web Development,Web Development
+so2024_11928,Web Development,DevOps & Cloud
+so2024_41861,Web Development,Web Development
+so2023_9441,Web Development,Web Development
+so2023_71685,Web Development,Web Development
+so2024_56674,Web Development,Web Development
+so2024_2950,Web Development,Web Development
+so2024_41321,Web Development,Web Development
+so2023_258,Web Development,DevOps & Cloud
+so2025_14786,Web Development,DevOps & Cloud
+so2023_57254,Web Development,Web Development
+so2024_51458,Web Development,Web Development
+so2023_67635,Web Development,Web Development
+so2023_68534,Web Development,Data Engineering & Databases
+so2025_4384,Web Development,Web Development
+so2024_23555,Web Development,Web Development
+so2023_15064,Web Development,DevOps & Cloud
+so2023_432,Web Development,Data Engineering & Databases
+so2023_67497,Web Development,Web Development
+so2024_28235,Web Development,Data Engineering & Databases
+so2023_17874,Web Development,Web Development
+so2025_10088,Web Development,DevOps & Cloud
+so2023_44223,Web Development,Data Engineering & Databases
+so2023_7596,Web Development,Web Development
+so2023_2754,Web Development,Web Development
+so2024_55390,Web Development,Web Development
+so2023_52534,Web Development,Web Development
+so2023_40537,Web Development,Data Engineering & Databases
+so2023_6051,Web Development,Web Development
+so2023_47654,Web Development,Data Engineering & Databases
+so2023_50778,Web Development,Web Development
+so2024_3868,Web Development,Data Engineering & Databases
+so2024_25563,Web Development,Data Engineering & Databases
+so2025_5470,Web Development,Web Development
+so2025_10601,Web Development,Data Engineering & Databases
+so2023_9921,Web Development,Data Engineering & Databases

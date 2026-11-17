@@ -1,0 +1,102 @@
+{
+  "model": "distilbert_ablation",
+  "dataset": "djinni_masked",
+  "summary": {
+    "acc": 0.8567,
+    "macro_f1": 0.8361,
+    "top3": 0.9683,
+    "acc_sd": 0.0027,
+    "macro_f1_sd": 0.0035,
+    "top3_sd": 0.0022,
+    "folds": 5
+  },
+  "folds": [
+    {
+      "n": 5572,
+      "acc": 0.8557071069633884,
+      "macro_f1": 0.8353542035380878,
+      "top3": 0.9673366834170855
+    },
+    {
+      "n": 5572,
+      "acc": 0.8526561378320172,
+      "macro_f1": 0.8332674567968662,
+      "top3": 0.966618808327351
+    },
+    {
+      "n": 5573,
+      "acc": 0.8560918715234165,
+      "macro_f1": 0.8320559688114185,
+      "top3": 0.972546204916562
+    },
+    {
+      "n": 5572,
+      "acc": 0.8605527638190955,
+      "macro_f1": 0.8419237573083249,
+      "top3": 0.9671572146446519
+    },
+    {
+      "n": 5572,
+      "acc": 0.8585786073223259,
+      "macro_f1": 0.838091017964135,
+      "top3": 0.9676956209619526
+    }
+  ],
+  "time": "2026-11-03 20:54",
+  "top_confusions": [
+    [
+      "DevOps & Cloud",
+      "Networking & SysAdmin",
+      324
+    ],
+    [
+      "Networking & SysAdmin",
+      "DevOps & Cloud",
+      272
+    ],
+    [
+      "AI/ML Engineering",
+      "Data Science & Analytics",
+      268
+    ],
+    [
+      "Data Science & Analytics",
+      "AI/ML Engineering",
+      257
+    ],
+    [
+      "Data Engineering & Databases",
+      "Data Science & Analytics",
+      216
+    ],
+    [
+      "Data Science & Analytics",
+      "Data Engineering & Databases",
+      211
+    ],
+    [
+      "Web Development",
+      "Mobile Development",
+      124
+    ],
+    [
+      "Mobile Development",
+      "Web Development",
+      113
+    ]
+  ],
+  "config": {
+    "model": "distilbert-base-uncased",
+    "tag": "distilbert_ablation",
+    "datasets": "djinni_nolook,djinni_masked,djinni_tools",
+    "folds": "0,1,2,3,4",
+    "epochs": 3,
+    "lr": 5e-05,
+    "batch": 32,
+    "max_len": 256,
+    "seed": 42,
+    "limit": 0,
+    "skip_forms": true,
+    "eval_variants": ""
+  }
+}

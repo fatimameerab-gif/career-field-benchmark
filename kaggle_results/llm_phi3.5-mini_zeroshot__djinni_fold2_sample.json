@@ -1,0 +1,68 @@
+{
+  "model": "llm_phi3.5-mini_zeroshot",
+  "dataset": "djinni_fold2_sample",
+  "summary": {
+    "n": 480,
+    "acc": 0.7791666666666667,
+    "macro_f1": 0.7746818045972351,
+    "top3": 0.9666666666666667
+  },
+  "folds": [],
+  "time": "2026-11-07 12:01",
+  "top_confusions": [
+    [
+      "AI/ML Engineering",
+      "Data Science & Analytics",
+      22
+    ],
+    [
+      "Networking & SysAdmin",
+      "DevOps & Cloud",
+      7
+    ],
+    [
+      "Data Engineering & Databases",
+      "Product & Project Management",
+      6
+    ],
+    [
+      "Data Engineering & Databases",
+      "Data Science & Analytics",
+      4
+    ],
+    [
+      "DevOps & Cloud",
+      "Networking & SysAdmin",
+      4
+    ],
+    [
+      "Product & Project Management",
+      "Web Development",
+      4
+    ],
+    [
+      "AI/ML Engineering",
+      "Web Development",
+      3
+    ],
+    [
+      "Cybersecurity",
+      "Networking & SysAdmin",
+      3
+    ]
+  ],
+  "config": {
+    "model": "microsoft/Phi-3.5-mini-instruct",
+    "tag": "llm_phi3.5-mini_zeroshot",
+    "datasets": "djinni,faruque",
+    "per_class": 40,
+    "max_words": 250,
+    "end_text": "<|end|>",
+    "limit": 0,
+    "prompt_variant": "default",
+    "shots": 0,
+    "shot_words": 60,
+    "folds": "0,1,2,3,4",
+    "device_map": "auto"
+  }
+}

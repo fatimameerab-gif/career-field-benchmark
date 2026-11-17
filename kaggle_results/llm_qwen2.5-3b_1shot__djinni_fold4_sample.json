@@ -1,0 +1,68 @@
+{
+  "model": "llm_qwen2.5-3b_1shot",
+  "dataset": "djinni_fold4_sample",
+  "summary": {
+    "n": 240,
+    "acc": 0.8333333333333334,
+    "macro_f1": 0.8341734271671825,
+    "top3": 0.95
+  },
+  "folds": [],
+  "time": "2026-11-07 06:20",
+  "top_confusions": [
+    [
+      "AI/ML Engineering",
+      "Data Science & Analytics",
+      9
+    ],
+    [
+      "Networking & SysAdmin",
+      "DevOps & Cloud",
+      5
+    ],
+    [
+      "Data Science & Analytics",
+      "AI/ML Engineering",
+      3
+    ],
+    [
+      "Product & Project Management",
+      "DevOps & Cloud",
+      3
+    ],
+    [
+      "Cybersecurity",
+      "DevOps & Cloud",
+      2
+    ],
+    [
+      "Data Engineering & Databases",
+      "Data Science & Analytics",
+      2
+    ],
+    [
+      "QA & Testing",
+      "Web Development",
+      2
+    ],
+    [
+      "Web Development",
+      "Mobile Development",
+      2
+    ]
+  ],
+  "config": {
+    "model": "Qwen/Qwen2.5-3B-Instruct",
+    "tag": "llm_qwen2.5-3b_1shot",
+    "datasets": "faruque,djinni",
+    "per_class": 20,
+    "max_words": 250,
+    "end_text": "<|im_end|>",
+    "limit": 0,
+    "prompt_variant": "default",
+    "shots": 1,
+    "shot_words": 60,
+    "folds": "0,1,2,3,4",
+    "device_map": ""
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "model": "distilbert_ablation",
+  "dataset": "djinni_tools",
+  "summary": {
+    "acc": 0.7138,
+    "macro_f1": 0.5218,
+    "top3": 0.906,
+    "acc_sd": 0.0057,
+    "macro_f1_sd": 0.0105,
+    "top3_sd": 0.0064,
+    "folds": 5
+  },
+  "folds": [
+    {
+      "n": 2397,
+      "acc": 0.7167292448894451,
+      "macro_f1": 0.5255251132382113,
+      "top3": 0.9103045473508552
+    },
+    {
+      "n": 2450,
+      "acc": 0.7146938775510204,
+      "macro_f1": 0.5251190797183157,
+      "top3": 0.9044897959183673
+    },
+    {
+      "n": 2455,
+      "acc": 0.7079429735234216,
+      "macro_f1": 0.5109329386605127,
+      "top3": 0.8997963340122199
+    },
+    {
+      "n": 2464,
+      "acc": 0.7069805194805194,
+      "macro_f1": 0.509575291927459,
+      "top3": 0.8993506493506493
+    },
+    {
+      "n": 2367,
+      "acc": 0.7224334600760456,
+      "macro_f1": 0.5377754352284452,
+      "top3": 0.9159273341782848
+    }
+  ],
+  "time": "2026-11-03 21:09",
+  "top_confusions": [
+    [
+      "Networking & SysAdmin",
+      "DevOps & Cloud",
+      234
+    ],
+    [
+      "Data Engineering & Databases",
+      "Data Science & Analytics",
+      226
+    ],
+    [
+      "Data Science & Analytics",
+      "Data Engineering & Databases",
+      212
+    ],
+    [
+      "AI/ML Engineering",
+      "Data Science & Analytics",
+      139
+    ],
+    [
+      "DevOps & Cloud",
+      "Networking & SysAdmin",
+      135
+    ],
+    [
+      "QA & Testing",
+      "Data Engineering & Databases",
+      104
+    ],
+    [
+      "Data Engineering & Databases",
+      "QA & Testing",
+      98
+    ],
+    [
+      "Data Science & Analytics",
+      "AI/ML Engineering",
+      89
+    ]
+  ],
+  "config": {
+    "model": "distilbert-base-uncased",
+    "tag": "distilbert_ablation",
+    "datasets": "djinni_nolook,djinni_masked,djinni_tools",
+    "folds": "0,1,2,3,4",
+    "epochs": 3,
+    "lr": 5e-05,
+    "batch": 32,
+    "max_len": 256,
+    "seed": 42,
+    "limit": 0,
+    "skip_forms": true,
+    "eval_variants": ""
+  }
+}

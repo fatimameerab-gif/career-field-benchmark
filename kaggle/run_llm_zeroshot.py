@@ -42,7 +42,7 @@ def definitions(classes):
 PROMPT_VARIANT = "default"   # set from --prompt_variant
 
 
-def build_prompt(tok, text, classes, defs, max_words):
+def build_prompt(tok, text, classes, defs, max_words, examples=None):
     """default: field names with one-line ESCO/O*NET definitions (as in the paper)
     nodef:   field names only, same wording
     plain:   definitions kept, different instruction wording (a job-matching framing)"""
@@ -58,10 +58,16 @@ def build_prompt(tok, text, classes, defs, max_words):
             {"role": "user", "content": f"Here is a text written by a person:\n\"\"\"{text}\"\"\"\n\nPossible job fields:\n{options}\n\nReply with the one job field from the list that this person most likely works in or wants to work in."},
         ]
     else:
-        msgs = [
-            {"role": "system", "content": "You are a career counsellor for computing students. Classify the person into exactly one career field."},
-            {"role": "user", "content": f"Career fields:\n{options}\n\nPerson's description:\n\"\"\"{text}\"\"\"\n\nWhich career field fits this person best? Answer with the field name only."},
-        ]
+        sysmsg = "You are a career counsellor for computing students. Classify the person into exactly one career field."
+        if not examples:   # zero-shot: exactly the prompt used in the paper
+            msgs = [{"role": "system", "content": sysmsg},
+                    {"role": "user", "content": f"Career fields:\n{options}\n\nPerson's description:\n\"\"\"{text}\"\"\"\n\nWhich career field fits this person best? Answer with the field name only."}]
+        else:              # few-shot: the field list once in the system message, then labelled examples from the
+                           # TRAINING folds as earlier chat turns, then the person to classify
+            msgs = [{"role": "system", "content": f"{sysmsg} Answer with the field name only.\n\nCareer fields:\n{options}"}]
+            for ex_text, ex_label in examples:
+                msgs += [{"role": "user", "content": f"Person's description:\n\"\"\"{ex_text}\"\"\""}, {"role": "assistant", "content": ex_label}]
+            msgs.append({"role": "user", "content": f"Person's description:\n\"\"\"{text}\"\"\""})
     return tok.apply_chat_template(msgs, tokenize=False, add_generation_prompt=True)
 
 
@@ -88,17 +94,25 @@ def score(model, tok, prompt, classes, end_text, dev):
     return np.array(out)
 
 
-def evaluate(model, tok, dev, df, classes, name, a):
+def evaluate(model, tok, dev, df, classes, name, a, examples=None):
     defs = definitions(classes); end_text = a.end_text
     S = []
     for i, t in enumerate(df.text):
-        S.append(score(model, tok, build_prompt(tok, t, classes, defs, a.max_words), classes, end_text, dev))
+        S.append(score(model, tok, build_prompt(tok, t, classes, defs, a.max_words, examples), classes, end_text, dev))
         if (i + 1) % 50 == 0: print(f"  {name}: {i + 1}/{len(df)}")
     S = np.vstack(S); P = np.exp(S - S.max(1, keepdims=True)); P /= P.sum(1, keepdims=True)
     pred = np.array(classes)[S.argmax(1)]
     m = C.metrics(df.label, pred, P, classes)
     p = pd.DataFrame({"id": df.id, "true": df.label, "pred": pred})
     C.save(a.tag, name, m, preds=p, extra={"top_confusions": C.top_confusions(p.true, p.pred), "config": vars(a)})
+
+
+def few_shot_examples(full, fold, shots, words):
+    """`shots` labelled texts per class from the training folds of `fold` (random_state=0), cut to `words` words,
+    in a fixed shuffled order so that no class always comes last"""
+    tr = full[full.fold != fold]
+    ex = pd.concat([g.sample(min(len(g), shots), random_state=0) for _, g in tr.groupby("label")]).sample(frac=1, random_state=0)
+    return [(" ".join(str(t).split()[:words]), l) for t, l in zip(ex.text, ex.label)]
 
 
 def sample_fold(df, per_class, fold=0):
@@ -117,6 +131,8 @@ if __name__ == "__main__":
     ap.add_argument("--end_text", default="<|im_end|>", help="end-of-answer marker of the chat template")
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--prompt_variant", default="default", choices=["default", "nodef", "plain"])
+    ap.add_argument("--shots", type=int, default=0, help="few-shot: labelled examples per class from the training folds (0 = zero-shot)")
+    ap.add_argument("--shot_words", type=int, default=60, help="few-shot examples are cut to this many words")
     ap.add_argument("--folds", default="0", help="test folds to sample, e.g. 0 or 1,2,3,4; one result file per fold")
     ap.add_argument("--device_map", default="", help='"auto" spreads a large model over all GPUs (e.g. 7B on 2x T4)')
     a = ap.parse_args()
@@ -141,4 +157,5 @@ if __name__ == "__main__":
         for k in [int(x) for x in a.folds.split(",")]:
             df = sample_fold(full, a.per_class, k); name = f"{ds}_fold{k}_sample"
             if a.limit: df = df.head(a.limit)
-            evaluate(model, tok, dev, df, classes, name, a)
+            ex = few_shot_examples(full, k, a.shots, a.shot_words) if a.shots else None
+            evaluate(model, tok, dev, df, classes, name, a, ex)

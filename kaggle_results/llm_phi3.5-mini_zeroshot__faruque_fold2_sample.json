@@ -1,0 +1,68 @@
+{
+  "model": "llm_phi3.5-mini_zeroshot",
+  "dataset": "faruque_fold2_sample",
+  "summary": {
+    "n": 211,
+    "acc": 0.7630331753554502,
+    "macro_f1": 0.787053077412707,
+    "top3": 0.976303317535545
+  },
+  "folds": [],
+  "time": "2026-11-07 13:03",
+  "top_confusions": [
+    [
+      "Software Development and Engineering",
+      "Development",
+      13
+    ],
+    [
+      "Security",
+      "Software Development and Engineering",
+      6
+    ],
+    [
+      "Data Science",
+      "Artificial Intelligence",
+      5
+    ],
+    [
+      "Development",
+      "Software Development and Engineering",
+      4
+    ],
+    [
+      "Security",
+      "Artificial Intelligence",
+      4
+    ],
+    [
+      "Software Development and Engineering",
+      "Artificial Intelligence",
+      4
+    ],
+    [
+      "Software Development and Engineering",
+      "Data Science",
+      4
+    ],
+    [
+      "Artificial Intelligence",
+      "Development",
+      2
+    ]
+  ],
+  "config": {
+    "model": "microsoft/Phi-3.5-mini-instruct",
+    "tag": "llm_phi3.5-mini_zeroshot",
+    "datasets": "djinni,faruque",
+    "per_class": 40,
+    "max_words": 250,
+    "end_text": "<|end|>",
+    "limit": 0,
+    "prompt_variant": "default",
+    "shots": 0,
+    "shot_words": 60,
+    "folds": "0,1,2,3,4",
+    "device_map": "auto"
+  }
+}

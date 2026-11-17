@@ -1,0 +1,68 @@
+{
+  "model": "llm_qwen2.5-7b_1shot",
+  "dataset": "faruque_fold2_sample",
+  "summary": {
+    "n": 111,
+    "acc": 0.7207207207207207,
+    "macro_f1": 0.6868200667600449,
+    "top3": 1.0
+  },
+  "folds": [],
+  "time": "2026-11-03 19:32",
+  "top_confusions": [
+    [
+      "Software Development and Engineering",
+      "Development",
+      11
+    ],
+    [
+      "Data Science",
+      "Artificial Intelligence",
+      5
+    ],
+    [
+      "Software Development and Engineering",
+      "Artificial Intelligence",
+      3
+    ],
+    [
+      "Software Development and Engineering",
+      "Security",
+      3
+    ],
+    [
+      "Security",
+      "Artificial Intelligence",
+      2
+    ],
+    [
+      "Artificial Intelligence",
+      "Data Science",
+      1
+    ],
+    [
+      "Artificial Intelligence",
+      "Development",
+      1
+    ],
+    [
+      "Artificial Intelligence",
+      "Security",
+      1
+    ]
+  ],
+  "config": {
+    "model": "Qwen/Qwen2.5-7B-Instruct",
+    "tag": "llm_qwen2.5-7b_1shot",
+    "datasets": "djinni,faruque",
+    "per_class": 20,
+    "max_words": 250,
+    "end_text": "<|im_end|>",
+    "limit": 0,
+    "prompt_variant": "default",
+    "shots": 1,
+    "shot_words": 60,
+    "folds": "0,1,2,3,4",
+    "device_map": "auto"
+  }
+}

@@ -24,8 +24,14 @@ The task is to predict a person's computing career field (13 fields, 4 parent gr
 - JobBERT (`jjzha/jobbert-base-cased`) over three seeds: Djinni 0.889 ± 0.001, Faruque 0.934 ± 0.005, the same as DistilBERT. Its lead over TF-IDF + SVM is not significant under the corrected t-test for any seed on Djinni, and only for seed 42 on Faruque.
 - Near-duplicate test rows (TF-IDF cosine ≥ 0.9) do not change which model is best. Masking role words costs TF-IDF + SVM 3 points on Djinni. Reducing the same profiles to their tool lists costs 21 points.
 - Zero-shot LLMs on stratified samples of all five folds (2,400 Djinni and 1,057 Faruque rows): Qwen2.5-3B-Instruct 0.779 and 0.733, Qwen2.5-7B-Instruct 0.838 and 0.743, against 0.854–0.872 and 0.923–0.940 for the trained models on the same rows. On Djinni the 7B model is significantly below every trained model except MiniLM + LR (Holm). Prompt variants (fold 0 only): without definitions or with a reworded instruction the 3B model drops on Faruque (0.656 / 0.585).
+- Nested tuning (validation fold inside each outer training split, `scripts/tune_tfidf.py` and `kaggle/tune_models.py`) changes little: tuned TF-IDF + SVM 0.887 / 0.921 / 0.471, tuned TF-IDF + LR 0.883 / 0.927 / 0.448, tuned DistilBERT 0.889 / 0.933 / 0.518. After tuning, DistilBERT leads TF-IDF + SVM on Djinni by 0.15 points (McNemar p = 0.35). Predictions of the tuned TF-IDF + LR are included for Faruque; for Djinni and Stack Overflow, `python scripts/tune_tfidf.py --kinds lr --datasets djinni,stackoverflow` regenerates them (several CPU hours).
+- One example per field (one-shot, 20 rows per class per fold): Qwen2.5-7B 0.859 on Djinni (no longer significantly below the trained models) and 0.829 on Faruque; Qwen2.5-3B 0.806 and 0.707.
+- Phi-3.5-mini-instruct zero-shot, same samples: 0.790 on Djinni and 0.763 on Faruque, significantly below every trained model (McNemar, Holm, p < 0.001).
+- Zero-shot LLMs on Stack Overflow tool lists (40 rows per class per fold, chance 0.077): Qwen2.5-3B 0.152 and Phi-3.5-mini 0.138, against 0.418 for DistilBERT on the same rows.
+- DistilBERT ablations on Djinni: without "looking for" sentences, with role words masked, and on the tool list alone (0.714).
+- Hierarchical TF-IDF + LR (two-stage group-then-field, and soft P(group) x P(field | group)) does not beat the flat model (`scripts/hierarchical_tfidf.py`).
 - Perturbed test texts (typos, shuffled word order, 20% words deleted) cost TF-IDF + SVM 0.4–1.3 points and DistilBERT 0.5–1.9 points.
-- Two annotators labelled 204 Djinni profiles: Cohen's kappa 0.79 / 0.80 against the dataset labels and 0.73 between them.
+- Two team annotators labelled 204 Djinni profiles: Cohen's kappa 0.79 / 0.80 against the dataset labels and 0.73 between them. A third annotator from outside the author team agreed with the dataset labels at kappa 0.87; that annotator's labels are not released (available from the authors on request).
 - Full tables are in `processed/analysis/`, and every prediction is in `kaggle_results/`.
 
 Repository: https://github.com/fatimameerab-gif/career-field-benchmark
@@ -57,20 +63,30 @@ scripts/
   gpu2_analysis.py      JobBERT, DistilBERT on perturbed texts, LLM prompt variants and Qwen2.5-7B
   gpu3_analysis.py      JobBERT seeds 13 / 7 and both LLMs on samples of all five folds
   label_agreement.py    Cohen's kappa for the two annotators (annotation/)
+  tune_tfidf.py         nested tuning of TF-IDF + LR / SVM (CPU)
+  hierarchical_tfidf.py two-stage and soft hierarchical TF-IDF + LR against the flat model
   review_analyses.py    near-duplicate check, Djinni ablations (role words, tool-only text), LLM tests, Holm correction
   exploratory/          early checks (Faruque duplicate analysis, first TF-IDF baselines)
 kaggle/
   data/                 THE BENCHMARK: djinni_folds.csv, stackoverflow_folds.csv, faruque_folds.csv, label_set.csv
   common.py             data loading and metrics shared by all models
-  run_tfidf.py, run_sbert.py, run_distilbert.py, run_llm_zeroshot.py
+  run_tfidf.py, run_sbert.py, run_distilbert.py
+  run_llm_zeroshot.py   zero-shot and one-shot LLM scoring (--shots, --folds, --device_map)
+  tune_models.py        nested tuning of DistilBERT and the SBERT classifiers (GPU)
   STARRT_experiments.ipynb   notebook that runs everything on a Kaggle GPU
   STARRT_review_checks.ipynb extra DistilBERT seeds on Djinni and Faruque
   STARRT_gpu_round2.ipynb    Stack Overflow seeds, JobBERT, perturbed texts, LLM prompt variants, Qwen2.5-7B
   STARRT_gpu_round3.ipynb    JobBERT seeds 13 / 7, Qwen2.5-3B and -7B on folds 1-4
+  STARRT_gpu_round4.ipynb    Qwen2.5-7B one-shot, DistilBERT ablations
+  STARRT_gpu_round5.ipynb    nested tuning: DistilBERT (Djinni, Faruque) and SBERT (all datasets)
+  STARRT_gpu_round5b_distilbert_stackoverflow.ipynb  nested tuning of DistilBERT on Stack Overflow
+  STARRT_gpu_round6A_phi.ipynb        Phi-3.5-mini zero-shot (Djinni, Faruque)
+  STARRT_gpu_round6B_3b_oneshot.ipynb Qwen2.5-3B one-shot (Djinni, Faruque)
+  STARRT_gpu_round7_llm_stackoverflow.ipynb  Qwen2.5-3B and Phi-3.5-mini zero-shot on Stack Overflow
   README.md             how to run on Kaggle
 kaggle_results/         per-model summaries (*.json) and per-row predictions (*__predictions.csv)
 processed/analysis/     tables used in the paper
-annotation/             label check: 204 Djinni profiles, two annotators' sheets and annotation_labels.csv
+annotation/             label check: 204 Djinni profiles, the two team annotators' sheets, annotation_labels.csv and the sampled ids
 figures/                PDF figures of the paper (the manuscript itself is added after publication)
 ```
 
@@ -108,6 +124,8 @@ python scripts/review_analyses.py .     # needs raw/ for the Djinni ablations
 python scripts/seed_analysis.py . && python scripts/robust_stats.py .
 python scripts/robustness.py .          # needs processed/ (uncapped check)
 python scripts/gpu2_analysis.py . && python scripts/gpu3_analysis.py .
+python scripts/tune_tfidf.py           # nested TF-IDF tuning, writes kaggle/results/
+python scripts/hierarchical_tfidf.py   # hierarchical TF-IDF + LR
 ```
 
 `analyze_results.py` and `make_figures.py` read the released predictions, so step 4 runs without a GPU. The pilot table (`forms_33.csv`) and Figure 3 are rebuilt from the released pilot predictions, which contain labels only and no texts.
@@ -116,7 +134,7 @@ python scripts/gpu2_analysis.py . && python scripts/gpu3_analysis.py .
 
 - **Code** (`scripts/`, `kaggle/*.py`, notebook): MIT, see `LICENSE`.
 - **Data**: each file keeps the licence of its source. Djinni is MIT. Stack Overflow-derived data is ODbL 1.0, so a database you derive from it must stay under ODbL. Faruque et al. is CC BY 4.0, and O\*NET is CC BY 4.0 (modified by us). ESCO is a European Commission classification, used with attribution. Details and attribution text are in `DATA_LICENSES.md`.
-- **Models** (downloaded at run time, not included): DistilBERT and the two sentence-transformers models are Apache-2.0. Qwen2.5-3B-Instruct is under the Qwen Research License and Qwen2.5-7B-Instruct under Apache-2.0. The JobBERT model card (`jjzha/jobbert-base-cased`) does not state a licence.
+- **Models** (downloaded at run time, not included): DistilBERT and the two sentence-transformers models are Apache-2.0. Qwen2.5-3B-Instruct is under the Qwen Research License, Qwen2.5-7B-Instruct under Apache-2.0 and Phi-3.5-mini-instruct under MIT. The JobBERT model card (`jjzha/jobbert-base-cased`) does not state a licence.
 
 ## Citation
 
